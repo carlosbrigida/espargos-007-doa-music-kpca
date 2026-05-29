@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+
+.vscode/
+
+*.tfrecords
+*.npz
+*.h5
+*.hdf5
+*.zarr
