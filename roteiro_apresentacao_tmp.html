@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>roteiro_apresentacao.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> or <div class="page"></div> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<p>ROTEIRO COMPLETO DA APRESENTAÇÃO
+Slide 1 – Title</p>
+<p>Bom dia.</p>
+<p>Nesta reunião vou apresentar o trabalho desenvolvido até o momento utilizando o dataset ESPARGOS 007.</p>
+<p>O foco principal foi compreender a estrutura dos dados CSI, caracterizar o subespaço associado a esses sinais e investigar PCA e Kernel PCA como possíveis ferramentas para uma futura integração com o algoritmo MUSIC.</p>
+<p>Slide 2 – Overview</p>
+<p>A apresentação está organizada em sete partes.</p>
+<p>Primeiro apresento o problema de pesquisa.</p>
+<p>Depois a caracterização do dataset.</p>
+<p>Em seguida os trabalhos relacionados.</p>
+<p>A metodologia utilizada.</p>
+<p>Os resultados obtidos.</p>
+<p>E por fim as conclusões e próximos passos.</p>
+<p>INTRODUÇÃO
+Slide 3 – Introduction</p>
+<p>O objetivo deste trabalho ainda não foi melhorar o MUSIC.</p>
+<p>O objetivo foi entender os dados CSI do ESPARGOS e investigar se PCA e KPCA conseguem representar esses dados preservando estruturas importantes.</p>
+<p>A motivação é que o MUSIC depende fortemente da separação entre subespaço de sinal e subespaço de ruído.</p>
+<p>Portanto, antes de modificar o MUSIC, preciso entender os dados e os subespaços presentes neles.</p>
+<p>Slide 4 – Problem Statement</p>
+<p>A pergunta principal desta etapa é:</p>
+<p>PCA e KPCA conseguem preservar estruturas relevantes dos dados CSI para uma futura aplicação com MUSIC?</p>
+<p>Até o momento:</p>
+<p>a caracterização dos dados foi concluída;
+PCA e KPCA foram avaliadas de forma exploratória;
+a integração com MUSIC ainda não foi implementada.
+MUSIC
+Slide 5 – Classical MUSIC Algorithm</p>
+<p>O MUSIC trabalha a partir de uma matriz de snapshots.</p>
+<p>Y=[x
+1
+​</p>
+<p>x
+2
+​</p>
+<p>...x
+N
+​</p>
+<p>]</p>
+<p>Cada coluna representa um snapshot.</p>
+<p>Ou seja, uma observação do sistema.</p>
+<p>A partir dessa matriz calculamos a matriz de covariância:</p>
+<p>R=
+N
+1
+​</p>
+<p>YY
+H</p>
+<p>onde:</p>
+<p>Y
+H
+é a transposta conjugada;
+N é o número de snapshots.</p>
+<p>A matriz de covariância mede a correlação existente entre os sinais.</p>
+<p>Depois realizamos a decomposição espectral:</p>
+<p>R=EΛE
+H</p>
+<p>Os autovalores indicam quanta energia existe em cada direção.</p>
+<p>Os autovetores associados aos maiores autovalores formam o subespaço de sinal.</p>
+<p>Os demais formam o subespaço de ruído.</p>
+<p>Slide 6 – MUSIC Pseudospectrum</p>
+<p>A ideia central do MUSIC é:</p>
+<p>a(θ)⊥E
+n
+​</p>
+<p>O vetor diretor a(θ) representa como um sinal chegaria ao array para um determinado ângulo.</p>
+<p>Quando o ângulo é o correto, esse vetor torna-se ortogonal ao subespaço de ruído.</p>
+<p>Isso leva ao pseudoespectro:</p>
+<p>P
+MUSIC
+​</p>
+<p>(θ)=
+a
+H
+(θ)E
+n
+​</p>
+<p>E
+n
+H
+​</p>
+<p>a(θ)
+1
+​</p>
+<p>O denominador mede o alinhamento entre o vetor diretor e o subespaço de ruído.</p>
+<p>Quando existe ortogonalidade:</p>
+<p>o denominador se aproxima de zero;
+o espectro cresce;
+surge um pico.</p>
+<p>Os picos correspondem às direções estimadas de chegada.</p>
+<p>DATASET
+Slide 7 – ESPARGOS Dataset</p>
+<p>O dataset utilizado foi o ESPARGOS 007.</p>
+<p>Ele contém medições reais de CSI em ambiente indoor.</p>
+<p>Cada snapshot contém:</p>
+<p>4 arrays receptores;
+2 linhas de antenas;
+4 colunas de antenas;
+53 subportadoras OFDM.</p>
+<p>Para os experimentos iniciais utilizei principalmente os cenários Standing Center e Circle.</p>
+<p>O QUE É OFDM?</p>
+<p>OFDM significa:</p>
+<p>Orthogonal Frequency Division Multiplexing.</p>
+<p>Em vez de transmitir toda a informação em uma única frequência, o sinal é dividido em várias subportadoras.</p>
+<p>É como uma rodovia:</p>
+<p>sem OFDM → uma única faixa;
+com OFDM → várias faixas paralelas.</p>
+<p>Isso torna a comunicação mais robusta.</p>
+<p>O QUE É CSI?</p>
+<p>CSI significa:</p>
+<p>Channel State Information.</p>
+<p>O CSI mede como o ambiente afeta o sinal transmitido.</p>
+<p>Para cada subportadora temos:</p>
+<p>H(f
+k
+​</p>
+<p>)=∣H(f
+k
+​</p>
+<p>)∣e
+jϕ
+k
+​</p>
+<p>onde:</p>
+<p>∣H(f
+k
+​</p>
+<p>)∣ é a magnitude;
+ϕ
+k
+​</p>
+<p>é a fase.</p>
+<p>A magnitude indica quanto o sinal foi atenuado.</p>
+<p>A fase indica quanto ele foi atrasado.</p>
+<p>Slide 8 – Understanding the CSI Tensor</p>
+<p>Cada snapshot é armazenado como:</p>
+<p>H
+i
+​</p>
+<p>∈C
+4×2×4×53</p>
+<p>As dimensões representam:</p>
+<p>4 arrays;
+2 linhas;
+4 colunas;
+53 subportadoras.</p>
+<p>Cada elemento do tensor representa:</p>
+<p>A resposta complexa do canal para uma antena específica e uma subportadora específica.</p>
+<p>Pergunta provável do Paim</p>
+<p>O que existe dentro daquele tensor?</p>
+<p>Resposta:</p>
+<p>Existem 1696 coeficientes complexos de CSI.</p>
+<p>Cada coeficiente representa a resposta do canal medida por uma antena específica para uma subportadora específica.</p>
+<p>Slide 9 – OFDM and CSI Measurements</p>
+<p>O sinal Wi-Fi é transmitido usando OFDM.</p>
+<p>O canal afeta cada subportadora de forma diferente.</p>
+<p>O CSI mede exatamente essa resposta.</p>
+<p>Por isso cada snapshot contém informações distribuídas pelas 53 subportadoras.</p>
+<p>Slide 10 – From CSI Tensor to Snapshot Vector</p>
+<p>O tensor é transformado em vetor.</p>
+<p>x
+i
+​</p>
+<p>=vec(H
+i
+​</p>
+<p>)</p>
+<p>A operação vec apenas reorganiza os dados.</p>
+<p>Nenhuma informação é descartada.</p>
+<p>Como:</p>
+<p>4×2×4×53=1696</p>
+<p>cada snapshot passa a ser representado por:</p>
+<p>x
+i
+​</p>
+<p>∈C
+1696
+Slide 11 – From Snapshot Vectors to Data Matrix</p>
+<p>Empilhamos todos os snapshots:</p>
+<p>X=
+​</p>
+<p>x
+1
+T
+​</p>
+<p>x
+2
+T
+​</p>
+<p>⋮
+x
+N
+T
+​</p>
+<pre><code>​
+
+​
+</code></pre>
+<p>Cada linha é um snapshot.</p>
+<p>Cada coluna é uma característica.</p>
+<p>Como PCA e KPCA trabalham com dados reais:</p>
+<p>X
+r
+​</p>
+<p>=[ℜ(X)ℑ(X)]</p>
+<p>Separando parte real e imaginária.</p>
+<p>Obtendo:</p>
+<p>X
+r
+​</p>
+<p>∈R
+N×3392
+Slide 12 – Dataset Characterization</p>
+<p>Antes de aplicar PCA ou KPCA procurei entender a estrutura dos dados.</p>
+<p>O gráfico superior mostra os autovalores.</p>
+<p>Poucos autovalores concentram a maior parte da energia.</p>
+<p>O gráfico inferior mostra a variância acumulada.</p>
+<p>Observamos que aproximadamente quatro componentes explicam cerca de 95% da variância.</p>
+<p>Isso sugere a existência de um subespaço dominante de baixa dimensão.</p>
+<p>TRABALHOS RELACIONADOS
+Slide 13 – MUSIC</p>
+<p>Schmidt propôs o MUSIC em 1986.</p>
+<p>Foi um dos primeiros métodos de alta resolução para estimação de direção de chegada baseado em subespaços.</p>
+<p>Esse será o algoritmo utilizado como referência.</p>
+<p>Slide 14 – PCA e KPCA</p>
+<p>PCA:</p>
+<p>Pearson (1901)
+Hotelling (1933)</p>
+<p>KPCA:</p>
+<p>Schölkopf (1998)</p>
+<p>A PCA realiza redução linear de dimensionalidade.</p>
+<p>A KPCA estende essa ideia para relações não lineares através de kernels.</p>
+<p>Slide 15 – What is PCA?</p>
+<p>A PCA procura direções que expliquem a maior parte da variância.</p>
+<p>Fluxo:</p>
+<p>X
+r
+​</p>
+<p>→Covariance→Eigenvectors→Principal Components</p>
+<p>As componentes principais não possuem significado físico direto.</p>
+<p>São apenas direções matemáticas que concentram a maior parte da informação.</p>
+<p>Slide 16 – What is Kernel PCA?</p>
+<p>A KPCA segue a mesma ideia.</p>
+<p>x→ϕ(x)→PCA</p>
+<p>Primeiro os dados são mapeados para um espaço de características.</p>
+<p>Depois a PCA é aplicada nesse novo espaço.</p>
+<p>Isso permite capturar estruturas não lineares.</p>
+<p>METODOLOGIA
+Slide 17 – Proposed Methodology</p>
+<p>Primeiro:</p>
+<p>caracterização do tensor CSI.</p>
+<p>Depois:</p>
+<p>construção dos snapshots.</p>
+<p>Em seguida:</p>
+<p>análise exploratória usando PCA e KPCA.</p>
+<p>Por fim:</p>
+<p>integração futura com MUSIC.</p>
+<p>A hipótese inicial é aplicar KPCA após a construção dos snapshots.</p>
+<p>Mas outras possibilidades ainda serão investigadas.</p>
+<p>Slide 18 – Covariance Matrix Estimation</p>
+<p>Comparo duas covariâncias.</p>
+<p>Original:</p>
+<p>R=
+N
+1
+​</p>
+<p>X
+H
+X</p>
+<p>Reconstruída:</p>
+<h1 id="r">R
+^</h1>
+<p>N
+1
+​</p>
+<p>X
+^
+H
+X
+^</p>
+<p>Depois comparo os subespaços através dos ângulos principais.</p>
+<p>O objetivo é verificar se PCA ou KPCA preservam o subespaço dominante.</p>
+<p>RESULTADOS
+Slide 19 – Current Findings</p>
+<p>Principais observações:</p>
+<p>estrutura de baixa dimensão;
+quatro componentes explicam aproximadamente 95% da variância;
+PCA e KPCA avaliadas de forma exploratória;
+integração com MUSIC ainda não realizada.
+Slide 20 – PCA Results</p>
+<p>Utilizando apenas 8 componentes:</p>
+<p>ângulos principais praticamente nulos.</p>
+<p>Isso significa:</p>
+<p>o subespaço reconstruído é praticamente igual ao original.</p>
+<p>Portanto:</p>
+<p>a PCA preservou muito bem o subespaço dominante.</p>
+<p>Slide 21 – Kernel PCA Results</p>
+<p>A KPCA produziu ângulos maiores.</p>
+<p>Isso significa que o subespaço obtido é diferente.</p>
+<p>Não significa necessariamente que seja pior.</p>
+<p>Significa apenas que a representação mudou.</p>
+<p>Ainda precisamos verificar o efeito dessa mudança no MUSIC.</p>
+<p>CONCLUSÕES
+Slide 22 – Conclusions</p>
+<p>Consegui:</p>
+<p>caracterizar o dataset;
+compreender a estrutura do tensor CSI;
+construir a matriz de snapshots;
+identificar um subespaço dominante de baixa dimensão;
+avaliar PCA e KPCA como ferramentas exploratórias.
+Slide 23 – Future Work</p>
+<p>Próximos passos:</p>
+<p>compreender completamente a implementação do Luís;
+reproduzir os resultados de referência do MUSIC;
+analisar a estimação da covariância;
+investigar possíveis pontos de inserção da KPCA.</p>
+<p>Objetivo final:</p>
+<p>Verificar se a KPCA pode melhorar a estimação de direção de chegada baseada em MUSIC.</p>
+<p>RESPOSTA MAIS IMPORTANTE DA APRESENTAÇÃO</p>
+<p>Pergunta:</p>
+<p>&quot;Por que você aplicou PCA e KPCA se ainda não integrou ao MUSIC?&quot;</p>
+<p>Resposta:</p>
+<p>&quot;Antes de modificar o pipeline do MUSIC eu precisava entender a estrutura dos dados CSI e verificar se PCA e KPCA preservavam ou modificavam o subespaço dominante dos sinais. A integração com o MUSIC será a próxima etapa da pesquisa.&quot;</p>
+
+</body>
+</html>
