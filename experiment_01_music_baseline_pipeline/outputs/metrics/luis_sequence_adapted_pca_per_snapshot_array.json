@@ -1,0 +1,132 @@
+{
+    "experiment": "luis_sequence_adapted_pca_per_snapshot_array",
+    "scenario": "human_helmet_standing_center_1",
+    "crap_enabled": false,
+    "frequency_hz": 2472000000.0,
+    "n_sources": 2,
+    "pca_variance": 0.9,
+    "mean_target_position": [
+        0.8214026633024297,
+        3.5067394396886145,
+        -0.5045609570007971
+    ],
+    "pca_stats": {
+        "explained_variance_target": 0.9,
+        "real_components_mean": 1.9345863915889705,
+        "real_components_min": 1,
+        "real_components_max": 3,
+        "imag_components_mean": 1.9404879984130132,
+        "imag_components_min": 1,
+        "imag_components_max": 3,
+        "real_preserved_variance_mean": 0.9467796086998975,
+        "imag_preserved_variance_mean": 0.9468551071076562
+    },
+    "baseline_results": [
+        {
+            "array_index": 0,
+            "array_name": "espargosnorth",
+            "true_aoa_deg": 6.560262880174191,
+            "estimated_aoa_deg": -3.75,
+            "angular_error_deg": 10.310262880174179,
+            "eigenvalues": [
+                2068587.75,
+                1394416.25,
+                621404.8125,
+                474959.21875
+            ]
+        },
+        {
+            "array_index": 1,
+            "array_name": "espargoswest",
+            "true_aoa_deg": -4.7003007457404715,
+            "estimated_aoa_deg": -0.25,
+            "angular_error_deg": 4.4503007457404635,
+            "eigenvalues": [
+                2218536.75,
+                1237019.5,
+                703944.125,
+                369626.125
+            ]
+        },
+        {
+            "array_index": 2,
+            "array_name": "espargossouth",
+            "true_aoa_deg": -14.015682010721166,
+            "estimated_aoa_deg": -17.5,
+            "angular_error_deg": 3.4843179892788214,
+            "eigenvalues": [
+                2419033.25,
+                1148613.875,
+                667689.25,
+                345678.59375
+            ]
+        },
+        {
+            "array_index": 3,
+            "array_name": "espargoseast",
+            "true_aoa_deg": -4.384058495888273,
+            "estimated_aoa_deg": 38.75,
+            "angular_error_deg": 43.13405849588827,
+            "eigenvalues": [
+                2323524.75,
+                1586491.125,
+                363815.9375,
+                200123.296875
+            ]
+        }
+    ],
+    "pca_results": [
+        {
+            "array_index": 0,
+            "array_name": "espargosnorth",
+            "true_aoa_deg": 6.560262880174191,
+            "estimated_aoa_deg": -3.5,
+            "angular_error_deg": 10.060262880174179,
+            "eigenvalues": [
+                2060596.875,
+                1364967.0,
+                622148.9375,
+                451853.34375
+            ]
+        },
+        {
+            "array_index": 1,
+            "array_name": "espargoswest",
+            "true_aoa_deg": -4.7003007457404715,
+            "estimated_aoa_deg": -0.25,
+            "angular_error_deg": 4.4503007457404635,
+            "eigenvalues": [
+                2203651.0,
+                1221092.125,
+                698515.375,
+                360136.8125
+            ]
+        },
+        {
+            "array_index": 2,
+            "array_name": "espargossouth",
+            "true_aoa_deg": -14.015682010721166,
+            "estimated_aoa_deg": -17.5,
+            "angular_error_deg": 3.4843179892788214,
+            "eigenvalues": [
+                2410658.5,
+                1138025.875,
+                649878.625,
+                334082.96875
+            ]
+        },
+        {
+            "array_index": 3,
+            "array_name": "espargoseast",
+            "true_aoa_deg": -4.384058495888273,
+            "estimated_aoa_deg": 38.5,
+            "angular_error_deg": 42.88405849588827,
+            "eigenvalues": [
+                2298319.5,
+                1555999.75,
+                361021.34375,
+                196381.484375
+            ]
+        }
+    ]
+}

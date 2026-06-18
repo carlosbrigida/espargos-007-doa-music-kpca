@@ -1,65 +1,44 @@
-Relatório Técnico – Exploração Inicial do Dataset ESPARGOS-0007 e Avaliação de PCA/KPCA
-1. Objetivo da etapa
+Análise Exploratória do Dataset ESPARGOS-0007 para Estudo de Métodos Baseados em Subespaços
+Resumo
 
-O objetivo desta fase foi:
+Este relatório apresenta uma análise exploratória inicial do dataset ESPARGOS-0007, contendo medições de Channel State Information (CSI) obtidas por meio da plataforma ESPARGOS. O objetivo desta etapa foi compreender a estrutura dos dados, caracterizar estatisticamente o cenário experimental selecionado, investigar a dimensionalidade efetiva do canal e avaliar o comportamento de técnicas de redução de dimensionalidade, com ênfase em PCA e Kernel PCA (KPCA). Os resultados indicam que o cenário analisado apresenta forte estrutura de baixa dimensão, elevada estabilidade temporal dos subespaços dominantes e excelente adequação como cenário baseline para futuros estudos envolvendo MUSIC e métodos de preservação de subespaços.
 
-Configurar o ambiente de desenvolvimento.
-Inspecionar e compreender a estrutura do dataset ESPARGOS-0007.
-Decodificar os arquivos TFRecord.
-Caracterizar estatisticamente o CSI.
-Investigar a estrutura de subespaços do cenário.
-Avaliar a estabilidade temporal dos subespaços.
-Comparar PCA e KPCA sob a perspectiva de preservação de subespaços, em vez de apenas erro de reconstrução.
-2. Ambiente computacional
+1. Introdução
 
-Foi configurado:
+Métodos de estimação baseados em subespaços, como MUSIC, dependem fortemente da correta separação entre os subespaços de sinal e ruído. Em aplicações envolvendo CSI, técnicas de redução de dimensionalidade são frequentemente utilizadas para reduzir complexidade computacional, remover ruído e melhorar a robustez das estimativas.
 
-VS Code
-Python 3.12.10
-Ambiente virtual (venv)
-TensorFlow
-NumPy
-SciPy
-Scikit-Learn
+Entretanto, a simples redução de erro de reconstrução não garante que a estrutura física relevante para algoritmos baseados em subespaços seja preservada. Assim, torna-se necessário avaliar não apenas a capacidade de reconstrução dos dados, mas também a preservação dos subespaços dominantes do canal.
 
-Durante os testes o TensorFlow identificou suporte a:
+O presente estudo tem como objetivo caracterizar o dataset ESPARGOS-0007 e investigar preliminarmente o comportamento de PCA e KPCA sob a perspectiva de preservação de subespaços.
 
-AVX
-AVX2
-AVX512F
-AVX512_VNNI
-AVX512_BF16
-FMA
+2. Dataset ESPARGOS-0007
+2.1 Estrutura geral
 
-indicando que o novo computador está utilizando otimizações modernas de CPU.
+O dataset ESPARGOS-0007 contém medições de CSI armazenadas em arquivos TFRecord correspondentes a diferentes configurações experimentais.
 
-3. Estrutura do dataset ESPARGOS-0007
+Entre os cenários disponíveis encontram-se:
 
-Foram identificados diversos arquivos TFRecord:
+Empty Room
+Human Helmet Standing Center
+Circle
+Random Walk
+Spiral
+Meanders
 
-espargos-0007-empty-room.tfrecords
-espargos-0007-human-helmet-standing-center-1.tfrecords
-espargos-0007-randomwalk-1.tfrecords
-espargos-0007-circle-1.tfrecords
-espargos-0007-spiral-ccw-1-part1.tfrecords
-...
+Os arquivos possuem tamanhos variando entre aproximadamente 66 MB e 2,7 GB.
 
-Tamanhos variando de:
+2.2 Estrutura dos registros
 
-66 MB
-até
-2.7 GB
-4. Estrutura interna dos registros
+Cada snapshot contém os seguintes campos:
 
-Cada registro contém:
+Campo	Descrição
+time	Timestamp da medição
+rssi	RSSI por enlace
+mac	Identificação do transmissor
+pos	Posição do alvo
+csi	Channel State Information
 
-time
-rssi
-mac
-pos
-csi
-
-Após desserialização com TensorFlow:
+Após desserialização, observou-se:
 
 CSI
 shape = (4, 2, 4, 53)
@@ -70,53 +49,52 @@ dtype = float32
 POS
 shape = (3,)
 dtype = float64
-TIME
-shape = ()
-dtype = float64
-5. Interpretação física do cenário
+3. Configuração Experimental
 
-A documentação analisada mostrou:
+O ambiente experimental é composto por:
 
-Infraestrutura
-4 arrays receptores
+Arrays receptores
 North
 South
 East
 West
-4 transmissores
+Transmissores
 TX1
 TX2
 TX3
 TX4
 Alvos
-ambiente vazio
-pessoa com refletor
-trajetória circular
-random walk
-espirais
-trajetórias meandrantes
-6. Análise do cenário escolhido
 
-Foi utilizado inicialmente:
+Foram realizados experimentos com:
+
+ambiente vazio;
+alvo passivo refletor;
+pessoa utilizando retrorefletor;
+trajetórias controladas.
+4. Cenário Selecionado
+Human Helmet Standing Center
+
+O cenário inicialmente selecionado foi:
 
 human-helmet-standing-center-1
 
-por ser um cenário praticamente estacionário.
+A escolha foi motivada pelo fato de representar um caso quase estacionário, adequado para construção de uma referência experimental.
 
-7. Contagem de snapshots
+5. Caracterização Temporal e Espacial
+5.1 Quantidade de snapshots
 
-Número total de registros:
+Número total de medições:
 
-5041
+5041 snapshots
 
-Duração:
+Duração total:
 
-82.9 s
+82.9 segundos
 
-Taxa de aquisição:
+Taxa aproximada:
 
-≈ 60.8 snapshots/s
-8. Análise da trajetória
+60.8 snapshots/s
+5.2 Estabilidade da posição
 
 Posição inicial:
 
@@ -126,348 +104,171 @@ Posição final:
 
 [0.8150, 3.5139, -0.5044]
 
-Variações observadas:
+Faixas observadas:
 
-X
-≈ 2.1 cm
-Y
-≈ 7.5 cm
-Z
-≈ 2.3 mm
+Eixo	Variação
+X	~2 cm
+Y	~7.5 cm
+Z	~2 mm
 
-Conclusão:
+Esses resultados confirmam que o alvo permaneceu praticamente estacionário durante a aquisição.
 
-Alvo praticamente estacionário.
+6. Estatísticas do CSI
 
-Esse cenário é adequado como baseline.
-
-9. Estatísticas globais do CSI
-
-Tensor completo:
+O tensor completo analisado possui dimensão:
 
 (5041, 4, 2, 4, 53)
+Magnitude
+Métrica	Valor
+Média	99.42
+Desvio padrão	28.51
+Mínimo	0
+Máximo	181
+Fase
+Métrica	Valor
+Média	0.0067
+Desvio padrão	1.8147
+Intervalo	[-π, π]
 
-Magnitude:
+Os resultados são compatíveis com um ambiente indoor real sujeito a multipercurso e pequenas flutuações temporais.
 
-Mean = 99.42
-Std  = 28.51
-Min  = 0
-Max  = 181
+7. Análise de Subespaços
+7.1 Construção da matriz de covariância
 
-Fase:
+Foi construído um subconjunto contendo:
 
-Mean = 0.0067
-Std  = 1.8147
-Range = [-π, π]
+1000 snapshots
 
-Conclusões:
-
-canal não é perfeitamente estático;
-existem variações temporais;
-fase bruta não está alinhada;
-comportamento compatível com ambiente indoor real.
-10. Construção do subconjunto para análise
-
-Foi criado:
+armazenado em:
 
 standing_center_1000.npz
 
-contendo:
+A matriz de covariância foi estimada utilizando:
 
-1000 snapshots
-
-para acelerar experimentos.
-
-11. Análise espectral do subespaço
-
-Covariância construída sobre:
-
-1000 snapshots
 1696 variáveis complexas
+7.2 Espectro de autovalores
 
-Autovalores dominantes:
+Os quatro maiores autovalores observados foram:
 
-λ1 = 5.98e6
-λ2 = 4.74e6
-λ3 = 4.09e6
-λ4 = 2.96e6
+λ1 = 5.98×10⁶
+λ2 = 4.74×10⁶
+λ3 = 4.09×10⁶
+λ4 = 2.96×10⁶
 
-Quinto autovalor:
+O quinto autovalor apresentou magnitude significativamente inferior:
 
-λ5 = 2.34e4
+λ5 = 2.34×10⁴
 
-Eigengap:
+Resultando em:
 
 λ4 / λ5 ≈ 126
-12. Descoberta principal
 
-A energia acumulada mostrou:
+Esse elevado eigengap evidencia uma forte separação entre os modos dominantes e o restante do espectro.
 
-90% -> 4 componentes
-95% -> 4 componentes
-99% -> 10 componentes
+7.3 Dimensionalidade efetiva
 
-Resultado extremamente relevante.
+A energia acumulada revelou:
 
-Apesar de existirem:
+Energia preservada	Componentes
+90%	4
+95%	4
+99%	10
 
-1696 dimensões complexas
+Apesar do espaço de observação possuir 1696 dimensões complexas, apenas quatro modos dominantes explicam mais de 95% da energia observada.
 
-apenas:
+8. Estabilidade Temporal dos Subespaços
 
-4 componentes
+A estabilidade temporal foi investigada utilizando janelas consecutivas de 100 snapshots.
 
-explicam mais de:
+Os ângulos principais observados entre subespaços consecutivos ficaram tipicamente entre:
 
-95%
-
-da energia observada.
-
-13. Interpretação científica
-
-O cenário parece viver em:
-
-subespaço dominante de baixa dimensão
-
-embutido em um espaço de observação muito maior.
-
-Consequências:
-
-PCA faz sentido.
-MUSIC tem forte separação sinal/ruído.
-Existe estrutura dominante muito clara.
-14. Estabilidade temporal dos autovalores
-
-Foi realizada análise em janelas:
-
-100 snapshots
-
-Os quatro maiores autovalores permaneceram estáveis ao longo do tempo.
-
-Não foram observadas:
-
-mudanças abruptas;
-transições LOS/NLOS;
-mudanças de regime evidentes.
-15. Estabilidade dos subespaços
-
-Foram calculados ângulos principais entre subespaços consecutivos.
-
-Resultados:
-
-2° – 6°
-
-tipicamente.
+2° e 6°
 
 Exemplos:
 
 0→1 : 2.50°
 6→7 : 2.09°
 8→9 : 4.96°
-Conclusão
 
-O cenário:
+Esses resultados indicam que o canal apresenta elevada estacionariedade no período analisado.
 
-human-helmet-standing-center
+9. Avaliação de PCA
 
-apresenta:
+A preservação dos subespaços foi analisada após:
 
-alta estacionariedade;
-subespaços estáveis;
-eigengap elevado;
-baixa dimensionalidade efetiva.
-
-É um excelente cenário baseline para MUSIC.
-
-16. Eigenspectrum
-
-O gráfico mostrou:
-
-Região dominante
-4 autovalores principais
-
-claramente separados.
-
-Região intermediária
-
-Cauda longa associada a:
-
-multipath;
-variações temporais;
-ruído correlacionado.
-Piso numérico
-
-Queda brusca próxima do rank máximo imposto pelo número de snapshots.
-
-17. PCA – preservação de subespaços
-
-Foi realizada:
-
-redução
-→ reconstrução
-→ comparação do subespaço
+Redução dimensional.
+Reconstrução dos dados.
+Reestimação dos subespaços dominantes.
 
 Resultados:
 
-PCA 90%
-7 componentes
-Max angle = 0.62°
-Mean = 0.15°
-PCA 95%
-8 componentes
-Max angle = 0.00045°
-PCA 99%
-19 componentes
-Max angle = 0.00029°
-Conclusão sobre PCA
+Variância	Componentes	Ângulo Máximo
+90%	7	0.62°
+95%	8	0.00045°
+99%	19	0.00029°
 
-O PCA preserva praticamente perfeitamente o subespaço dominante.
+O PCA preservou praticamente de forma perfeita o subespaço dominante.
 
-Em especial:
+10. Avaliação de Kernel PCA
 
-95% de energia
-↓
-8 componentes
-↓
-erro angular ≈ 0°
+Foi utilizado Kernel PCA com kernel RBF.
 
-Resultado extremamente forte.
+Foram avaliadas diferentes combinações de:
 
-18. KPCA – análise inicial
+número de componentes;
+parâmetro γ.
+10.1 Reconstrução
 
-Foi utilizado:
+Os erros médios observados foram:
 
-KernelPCA(
-    kernel="rbf"
-)
-
-com reconstrução via:
-
-inverse_transform()
-Resultados observados
-Erro de reconstrução
-
-PCA:
-
-MSE = 53 – 495
-
-KPCA:
-
+PCA
+MSE ≈ 53–495
+KPCA
 MSE ≈ 5313
+10.2 Preservação dos subespaços
 
-para praticamente todas as configurações testadas.
-
-Preservação de subespaços
-
-Resultados variando entre:
+Dependendo dos hiperparâmetros utilizados, os ângulos observados variaram aproximadamente entre:
 
 15°
 e
 89°
 
-dependendo de:
+indicando elevada sensibilidade à escolha de γ.
 
-gamma
+11. Discussão
 
-e
+Os resultados mostram que o cenário Human Helmet Standing Center apresenta uma estrutura extremamente favorável para métodos baseados em subespaços.
 
-n_components
-Descoberta importante
+Foram observados simultaneamente:
 
-O comportamento do KPCA mostrou-se altamente sensível ao parâmetro:
-
-gamma
-
-Enquanto o PCA permaneceu extremamente robusto.
-
-19. Interpretação crítica
-
-Os resultados atuais NÃO permitem concluir que:
-
-KPCA é melhor que PCA
-
-para este cenário.
-
-Pelo contrário.
-
-Neste experimento:
-
-PCA
-menor erro;
-maior estabilidade;
-preservação quase perfeita dos subespaços.
-KPCA
-reconstrução significativamente pior;
-forte distorção dos subespaços;
-elevada dependência dos hiperparâmetros.
-20. Limitação importante da análise
-
-O teste utilizou:
-
-kpca.inverse_transform()
-
-que depende do problema de:
-
-pre-image
-
-conhecidamente difícil em Kernel PCA.
-
-Portanto:
-
-não se pode concluir que o espaço kernel seja inadequado.
-
-Pode-se apenas concluir que:
-
-a reconstrução para o espaço original
-não preservou adequadamente a estrutura observada.
-21. Principais descobertas até o momento
-Dataset
-
-✓ Estrutura compreendida e decodificada.
-
-CSI
-
-✓ Tensor complexo validado.
-
-Cenário Standing Center
-
-✓ Quase estacionário.
-
-Subespaço
-
-✓ Apenas 4 modos dominam >95% da energia.
-
-MUSIC
-
-✓ Forte separação entre subespaço de sinal e ruído.
-
-PCA
-
-✓ Preservação quase perfeita dos subespaços.
-
-KPCA
-
-✓ Extremamente sensível ao kernel e ao parâmetro γ.
-
-✓ Reconstrução via pre-image produziu forte distorção dos subespaços.
-
-22. Conclusão geral da etapa
-
-O resultado mais importante desta fase não foi sobre KPCA.
-
-Foi a descoberta de que o cenário:
-
-human-helmet-standing-center
-
-possui:
-
+forte eigengap;
 baixa dimensionalidade efetiva;
-subespaços extremamente estáveis;
-eigengap muito forte;
-excelente adequação como baseline para MUSIC.
+estabilidade temporal;
+preservação quase perfeita por PCA.
 
-Além disso, os experimentos mostraram que:
+Por outro lado, o KPCA apresentou forte dependência dos hiperparâmetros e desempenho significativamente inferior quando avaliado através da reconstrução no espaço original.
 
-Preservação de subespaços é uma métrica muito mais informativa do que apenas erro de reconstrução ou MAE angular.
+Entretanto, deve-se ressaltar que a operação de reconstrução utilizada pelo KPCA depende da solução aproximada do problema de pre-image, o que limita a interpretação dos resultados obtidos.
 
-Essa observação pode se tornar um dos pilares metodológicos do trabalho, permitindo avaliar PCA, KPCA e futuros métodos de redução de dimensionalidade sob uma perspectiva diretamente ligada à física dos algoritmos de subespaços como o MUSIC.
+12. Conclusões
+
+As principais conclusões desta etapa são:
+
+O dataset ESPARGOS-0007 foi corretamente decodificado e caracterizado.
+O cenário Human Helmet Standing Center apresenta comportamento altamente estacionário.
+Apenas quatro modos dominantes explicam mais de 95% da energia observada.
+Os subespaços dominantes permanecem estáveis ao longo do tempo.
+O PCA preserva praticamente de forma perfeita os subespaços relevantes.
+O KPCA mostrou elevada sensibilidade aos hiperparâmetros e forte degradação quando avaliado via reconstrução no espaço original.
+A preservação de subespaços mostrou-se uma métrica mais informativa do que o erro de reconstrução isoladamente.
+13. Trabalhos Futuros
+
+As próximas etapas previstas incluem:
+
+análise dos demais cenários do dataset;
+implementação de MUSIC sobre os dados originais;
+comparação MUSIC + PCA;
+comparação MUSIC + KPCA;
+avaliação da preservação dos subespaços de sinal e ruído;
+estudo da separação entre cenários utilizando representações reduzidas;
+investigação da relação entre preservação de subespaços e erro angular de estimação

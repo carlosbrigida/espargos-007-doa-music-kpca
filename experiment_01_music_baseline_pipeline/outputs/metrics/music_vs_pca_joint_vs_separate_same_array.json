@@ -1,0 +1,500 @@
+{
+    "experiment": "music_vs_pca_joint_vs_separate_same_array",
+    "crap_enabled": false,
+    "array_index": 2,
+    "array_name": "espargossouth",
+    "frequency_hz": 2472000000.0,
+    "n_sources": 2,
+    "pca_variances": [
+        0.9,
+        0.95,
+        0.99
+    ],
+    "results": [
+        {
+            "scenario_key": "standing_center",
+            "scenario_name": "human_helmet_standing_center_1",
+            "scenario_label": "Standing Center",
+            "csi_shape": [
+                5041,
+                4,
+                2,
+                4,
+                53
+            ],
+            "mean_position": [
+                0.8214026633024297,
+                3.5067394396886145,
+                -0.5045609570007971
+            ],
+            "pure_music": {
+                "true_aoa_deg": -14.015682010721166,
+                "estimated_aoa_deg": -17.5,
+                "angular_error_deg": 3.4843179892788214,
+                "eigenvalues": [
+                    2419033.25,
+                    1148613.875,
+                    667689.25,
+                    345678.59375
+                ]
+            },
+            "pca_joint_results": [
+                {
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": -16.75,
+                    "angular_error_deg": 2.7343179892788214,
+                    "eigenvalues": [
+                        2170093.75,
+                        1070022.25,
+                        566441.5,
+                        285822.5
+                    ],
+                    "pca_variance": 0.9,
+                    "pca_components": 7,
+                    "pca_cumulative_variance": 0.9037920236587524
+                },
+                {
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": -17.5,
+                    "angular_error_deg": 3.4843179892788214,
+                    "eigenvalues": [
+                        2400875.75,
+                        1131986.5,
+                        645402.625,
+                        327434.5625
+                    ],
+                    "pca_variance": 0.95,
+                    "pca_components": 8,
+                    "pca_cumulative_variance": 0.984926700592041
+                },
+                {
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": -17.5,
+                    "angular_error_deg": 3.4843179892788214,
+                    "eigenvalues": [
+                        2408174.5,
+                        1138126.625,
+                        657040.5,
+                        333639.375
+                    ],
+                    "pca_variance": 0.99,
+                    "pca_components": 22,
+                    "pca_cumulative_variance": 0.9902181029319763
+                }
+            ],
+            "pca_separate_results": [
+                {
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": -16.75,
+                    "angular_error_deg": 2.7343179892788214,
+                    "eigenvalues": [
+                        2159940.5,
+                        1117044.875,
+                        673592.3125,
+                        321610.96875
+                    ],
+                    "pca_variance": 0.9,
+                    "pca_components_real": 7,
+                    "pca_components_imag": 7,
+                    "pca_cumulative_variance_real": 0.9269087314605713,
+                    "pca_cumulative_variance_imag": 0.9271529316902161
+                },
+                {
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": -17.5,
+                    "angular_error_deg": 3.4843179892788214,
+                    "eigenvalues": [
+                        2403106.5,
+                        1133326.375,
+                        647087.875,
+                        328033.34375
+                    ],
+                    "pca_variance": 0.95,
+                    "pca_components_real": 8,
+                    "pca_components_imag": 8,
+                    "pca_cumulative_variance_real": 0.9859537482261658,
+                    "pca_cumulative_variance_imag": 0.9859639406204224
+                },
+                {
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": -17.5,
+                    "angular_error_deg": 3.4843179892788214,
+                    "eigenvalues": [
+                        2409786.25,
+                        1139172.0,
+                        657001.3125,
+                        332227.5
+                    ],
+                    "pca_variance": 0.99,
+                    "pca_components_real": 15,
+                    "pca_components_imag": 15,
+                    "pca_cumulative_variance_real": 0.9902264475822449,
+                    "pca_cumulative_variance_imag": 0.9901414513587952
+                }
+            ],
+            "best_pca_joint": {
+                "true_aoa_deg": -14.015682010721166,
+                "estimated_aoa_deg": -16.75,
+                "angular_error_deg": 2.7343179892788214,
+                "eigenvalues": [
+                    2170093.75,
+                    1070022.25,
+                    566441.5,
+                    285822.5
+                ],
+                "pca_variance": 0.9,
+                "pca_components": 7,
+                "pca_cumulative_variance": 0.9037920236587524
+            },
+            "best_pca_separate": {
+                "true_aoa_deg": -14.015682010721166,
+                "estimated_aoa_deg": -16.75,
+                "angular_error_deg": 2.7343179892788214,
+                "eigenvalues": [
+                    2159940.5,
+                    1117044.875,
+                    673592.3125,
+                    321610.96875
+                ],
+                "pca_variance": 0.9,
+                "pca_components_real": 7,
+                "pca_components_imag": 7,
+                "pca_cumulative_variance_real": 0.9269087314605713,
+                "pca_cumulative_variance_imag": 0.9271529316902161
+            }
+        },
+        {
+            "scenario_key": "meanders_nw_se",
+            "scenario_name": "human_helmet_meanders_nw_se_1",
+            "scenario_label": "Meanders NW-SE",
+            "csi_shape": [
+                9257,
+                4,
+                2,
+                4,
+                53
+            ],
+            "mean_position": [
+                0.6933771821945629,
+                3.363181350595777,
+                -0.5058545272116419
+            ],
+            "pure_music": {
+                "true_aoa_deg": -13.308669820454998,
+                "estimated_aoa_deg": -16.75,
+                "angular_error_deg": 3.441330179544991,
+                "eigenvalues": [
+                    2322031.25,
+                    1138514.125,
+                    697040.5625,
+                    403751.96875
+                ]
+            },
+            "pca_joint_results": [
+                {
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -16.5,
+                    "angular_error_deg": 3.191330179544991,
+                    "eigenvalues": [
+                        2266859.5,
+                        1082857.75,
+                        626567.1875,
+                        348821.5625
+                    ],
+                    "pca_variance": 0.9,
+                    "pca_components": 8,
+                    "pca_cumulative_variance": 0.9484462141990662
+                },
+                {
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -16.5,
+                    "angular_error_deg": 3.191330179544991,
+                    "eigenvalues": [
+                        2267209.5,
+                        1084285.875,
+                        626826.0625,
+                        349116.90625
+                    ],
+                    "pca_variance": 0.95,
+                    "pca_components": 9,
+                    "pca_cumulative_variance": 0.9502877593040466
+                },
+                {
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -16.75,
+                    "angular_error_deg": 3.441330179544991,
+                    "eigenvalues": [
+                        2309703.0,
+                        1126643.5,
+                        684797.4375,
+                        391972.65625
+                    ],
+                    "pca_variance": 0.99,
+                    "pca_components": 86,
+                    "pca_cumulative_variance": 0.990015983581543
+                }
+            ],
+            "pca_separate_results": [
+                {
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -16.5,
+                    "angular_error_deg": 3.191330179544991,
+                    "eigenvalues": [
+                        2270288.75,
+                        1088240.125,
+                        632339.9375,
+                        350844.5625
+                    ],
+                    "pca_variance": 0.9,
+                    "pca_components_real": 8,
+                    "pca_components_imag": 8,
+                    "pca_cumulative_variance_real": 0.9520069360733032,
+                    "pca_cumulative_variance_imag": 0.9518001675605774
+                },
+                {
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -16.5,
+                    "angular_error_deg": 3.191330179544991,
+                    "eigenvalues": [
+                        2270288.75,
+                        1088240.125,
+                        632339.9375,
+                        350844.5625
+                    ],
+                    "pca_variance": 0.95,
+                    "pca_components_real": 8,
+                    "pca_components_imag": 8,
+                    "pca_cumulative_variance_real": 0.9520069360733032,
+                    "pca_cumulative_variance_imag": 0.9518001675605774
+                },
+                {
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -16.75,
+                    "angular_error_deg": 3.441330179544991,
+                    "eigenvalues": [
+                        2309486.75,
+                        1128003.0,
+                        684390.375,
+                        391788.3125
+                    ],
+                    "pca_variance": 0.99,
+                    "pca_components_real": 50,
+                    "pca_components_imag": 50,
+                    "pca_cumulative_variance_real": 0.9900794625282288,
+                    "pca_cumulative_variance_imag": 0.9900727272033691
+                }
+            ],
+            "best_pca_joint": {
+                "true_aoa_deg": -13.308669820454998,
+                "estimated_aoa_deg": -16.5,
+                "angular_error_deg": 3.191330179544991,
+                "eigenvalues": [
+                    2266859.5,
+                    1082857.75,
+                    626567.1875,
+                    348821.5625
+                ],
+                "pca_variance": 0.9,
+                "pca_components": 8,
+                "pca_cumulative_variance": 0.9484462141990662
+            },
+            "best_pca_separate": {
+                "true_aoa_deg": -13.308669820454998,
+                "estimated_aoa_deg": -16.5,
+                "angular_error_deg": 3.191330179544991,
+                "eigenvalues": [
+                    2270288.75,
+                    1088240.125,
+                    632339.9375,
+                    350844.5625
+                ],
+                "pca_variance": 0.9,
+                "pca_components_real": 8,
+                "pca_components_imag": 8,
+                "pca_cumulative_variance_real": 0.9520069360733032,
+                "pca_cumulative_variance_imag": 0.9518001675605774
+            }
+        },
+        {
+            "scenario_key": "meanders_sw_ne",
+            "scenario_name": "human_helmet_meanders_sw_ne_1",
+            "scenario_label": "Meanders SW-NE",
+            "csi_shape": [
+                17144,
+                4,
+                2,
+                4,
+                53
+            ],
+            "mean_position": [
+                0.7593431367221444,
+                3.302407965770293,
+                -0.508872269365276
+            ],
+            "pure_music": {
+                "true_aoa_deg": -15.039297626657573,
+                "estimated_aoa_deg": -16.5,
+                "angular_error_deg": 1.4607023733424285,
+                "eigenvalues": [
+                    2304889.75,
+                    1149818.75,
+                    694713.1875,
+                    418648.125
+                ]
+            },
+            "pca_joint_results": [
+                {
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -16.5,
+                    "angular_error_deg": 1.4607023733424285,
+                    "eigenvalues": [
+                        2249977.25,
+                        1090292.125,
+                        620612.75,
+                        370370.5625
+                    ],
+                    "pca_variance": 0.9,
+                    "pca_components": 8,
+                    "pca_cumulative_variance": 0.9532111883163452
+                },
+                {
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -16.5,
+                    "angular_error_deg": 1.4607023733424285,
+                    "eigenvalues": [
+                        2249977.25,
+                        1090292.125,
+                        620612.75,
+                        370370.5625
+                    ],
+                    "pca_variance": 0.95,
+                    "pca_components": 8,
+                    "pca_cumulative_variance": 0.9532111883163452
+                },
+                {
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -16.5,
+                    "angular_error_deg": 1.4607023733424285,
+                    "eigenvalues": [
+                        2293379.75,
+                        1138940.375,
+                        683883.8125,
+                        407758.53125
+                    ],
+                    "pca_variance": 0.99,
+                    "pca_components": 84,
+                    "pca_cumulative_variance": 0.9901481866836548
+                }
+            ],
+            "pca_separate_results": [
+                {
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -16.25,
+                    "angular_error_deg": 1.2107023733424285,
+                    "eigenvalues": [
+                        2141711.75,
+                        1088723.25,
+                        645745.0,
+                        367612.21875
+                    ],
+                    "pca_variance": 0.9,
+                    "pca_components_real": 7,
+                    "pca_components_imag": 8,
+                    "pca_cumulative_variance_real": 0.9003450870513916,
+                    "pca_cumulative_variance_imag": 0.9562683701515198
+                },
+                {
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -16.5,
+                    "angular_error_deg": 1.4607023733424285,
+                    "eigenvalues": [
+                        2256155.5,
+                        1095448.625,
+                        626350.375,
+                        372648.4375
+                    ],
+                    "pca_variance": 0.95,
+                    "pca_components_real": 8,
+                    "pca_components_imag": 8,
+                    "pca_cumulative_variance_real": 0.9564528465270996,
+                    "pca_cumulative_variance_imag": 0.9562683701515198
+                },
+                {
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -16.5,
+                    "angular_error_deg": 1.4607023733424285,
+                    "eigenvalues": [
+                        2294237.5,
+                        1139050.625,
+                        681499.0,
+                        408353.5625
+                    ],
+                    "pca_variance": 0.99,
+                    "pca_components_real": 48,
+                    "pca_components_imag": 48,
+                    "pca_cumulative_variance_real": 0.990121603012085,
+                    "pca_cumulative_variance_imag": 0.9901031255722046
+                }
+            ],
+            "best_pca_joint": {
+                "true_aoa_deg": -15.039297626657573,
+                "estimated_aoa_deg": -16.5,
+                "angular_error_deg": 1.4607023733424285,
+                "eigenvalues": [
+                    2249977.25,
+                    1090292.125,
+                    620612.75,
+                    370370.5625
+                ],
+                "pca_variance": 0.9,
+                "pca_components": 8,
+                "pca_cumulative_variance": 0.9532111883163452
+            },
+            "best_pca_separate": {
+                "true_aoa_deg": -15.039297626657573,
+                "estimated_aoa_deg": -16.25,
+                "angular_error_deg": 1.2107023733424285,
+                "eigenvalues": [
+                    2141711.75,
+                    1088723.25,
+                    645745.0,
+                    367612.21875
+                ],
+                "pca_variance": 0.9,
+                "pca_components_real": 7,
+                "pca_components_imag": 8,
+                "pca_cumulative_variance_real": 0.9003450870513916,
+                "pca_cumulative_variance_imag": 0.9562683701515198
+            }
+        }
+    ],
+    "summary": [
+        {
+            "scenario_key": "standing_center",
+            "scenario_label": "Standing Center",
+            "pure_music_error_deg": 3.4843179892788214,
+            "best_pca_joint_error_deg": 2.7343179892788214,
+            "best_pca_joint_variance": 0.9,
+            "best_pca_separate_error_deg": 2.7343179892788214,
+            "best_pca_separate_variance": 0.9
+        },
+        {
+            "scenario_key": "meanders_nw_se",
+            "scenario_label": "Meanders NW-SE",
+            "pure_music_error_deg": 3.441330179544991,
+            "best_pca_joint_error_deg": 3.191330179544991,
+            "best_pca_joint_variance": 0.9,
+            "best_pca_separate_error_deg": 3.191330179544991,
+            "best_pca_separate_variance": 0.9
+        },
+        {
+            "scenario_key": "meanders_sw_ne",
+            "scenario_label": "Meanders SW-NE",
+            "pure_music_error_deg": 1.4607023733424285,
+            "best_pca_joint_error_deg": 1.4607023733424285,
+            "best_pca_joint_variance": 0.9,
+            "best_pca_separate_error_deg": 1.2107023733424285,
+            "best_pca_separate_variance": 0.9
+        }
+    ]
+}

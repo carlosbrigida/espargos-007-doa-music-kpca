@@ -1,0 +1,133 @@
+{
+    "experiment": "single_array_pca_music_without_crap",
+    "scenario": "human_helmet_meanders_nw_se_1",
+    "crap_enabled": false,
+    "selected_array_index": 2,
+    "selected_array_name": "espargossouth",
+    "frequency_hz": 2472000000.0,
+    "n_sources": 2,
+    "mean_target_position": [
+        0.6933771821945629,
+        3.363181350595777,
+        -0.5058545272116419
+    ],
+    "baseline_music": {
+        "array_index": 2,
+        "array_name": "espargossouth",
+        "true_aoa_deg": -13.308669820454998,
+        "estimated_aoa_deg": -16.75,
+        "angular_error_deg": 3.441330179544991,
+        "eigenvalues": [
+            2322031.25,
+            1138514.125,
+            697040.5625,
+            403751.96875
+        ]
+    },
+    "pca_joint_results": [
+        {
+            "array_index": 2,
+            "array_name": "espargossouth",
+            "true_aoa_deg": -13.308669820454998,
+            "estimated_aoa_deg": -16.5,
+            "angular_error_deg": 3.191330179544991,
+            "eigenvalues": [
+                2266859.5,
+                1082857.75,
+                626567.1875,
+                348821.5625
+            ],
+            "pca_variance": 0.9,
+            "pca_components": 8,
+            "pca_cumulative_variance": 0.9484462141990662
+        },
+        {
+            "array_index": 2,
+            "array_name": "espargossouth",
+            "true_aoa_deg": -13.308669820454998,
+            "estimated_aoa_deg": -16.5,
+            "angular_error_deg": 3.191330179544991,
+            "eigenvalues": [
+                2267209.5,
+                1084285.875,
+                626826.0625,
+                349116.90625
+            ],
+            "pca_variance": 0.95,
+            "pca_components": 9,
+            "pca_cumulative_variance": 0.9502877593040466
+        },
+        {
+            "array_index": 2,
+            "array_name": "espargossouth",
+            "true_aoa_deg": -13.308669820454998,
+            "estimated_aoa_deg": -16.75,
+            "angular_error_deg": 3.441330179544991,
+            "eigenvalues": [
+                2309703.0,
+                1126643.5,
+                684797.4375,
+                391972.65625
+            ],
+            "pca_variance": 0.99,
+            "pca_components": 86,
+            "pca_cumulative_variance": 0.990015983581543
+        }
+    ],
+    "pca_separate_real_imag_results": [
+        {
+            "array_index": 2,
+            "array_name": "espargossouth",
+            "true_aoa_deg": -13.308669820454998,
+            "estimated_aoa_deg": -16.5,
+            "angular_error_deg": 3.191330179544991,
+            "eigenvalues": [
+                2270288.75,
+                1088240.125,
+                632339.9375,
+                350844.5625
+            ],
+            "pca_variance": 0.9,
+            "pca_components_real": 8,
+            "pca_components_imag": 8,
+            "pca_cumulative_variance_real": 0.9520069360733032,
+            "pca_cumulative_variance_imag": 0.9518001675605774
+        },
+        {
+            "array_index": 2,
+            "array_name": "espargossouth",
+            "true_aoa_deg": -13.308669820454998,
+            "estimated_aoa_deg": -16.5,
+            "angular_error_deg": 3.191330179544991,
+            "eigenvalues": [
+                2270288.75,
+                1088240.125,
+                632339.9375,
+                350844.5625
+            ],
+            "pca_variance": 0.95,
+            "pca_components_real": 8,
+            "pca_components_imag": 8,
+            "pca_cumulative_variance_real": 0.9520069360733032,
+            "pca_cumulative_variance_imag": 0.9518001675605774
+        },
+        {
+            "array_index": 2,
+            "array_name": "espargossouth",
+            "true_aoa_deg": -13.308669820454998,
+            "estimated_aoa_deg": -16.75,
+            "angular_error_deg": 3.441330179544991,
+            "eigenvalues": [
+                2309486.75,
+                1128003.0,
+                684390.375,
+                391788.3125
+            ],
+            "pca_variance": 0.99,
+            "pca_components_real": 50,
+            "pca_components_imag": 50,
+            "pca_cumulative_variance_real": 0.9900794625282288,
+            "pca_cumulative_variance_imag": 0.9900727272033691
+        }
+    ]
+}

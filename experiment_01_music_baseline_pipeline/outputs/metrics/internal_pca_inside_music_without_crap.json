@@ -1,0 +1,1062 @@
+{
+    "experiment": "internal_pca_inside_music_without_crap",
+    "crap_enabled": false,
+    "frequency_hz": 2472000000.0,
+    "n_sources": 2,
+    "pca_variances": [
+        0.9,
+        0.95,
+        0.99
+    ],
+    "results": [
+        {
+            "scenario_key": "standing_center",
+            "scenario_name": "human_helmet_standing_center_1",
+            "scenario_label": "Standing Center",
+            "csi_shape": [
+                5041,
+                4,
+                2,
+                4,
+                53
+            ],
+            "mean_position": [
+                0.8214026633024297,
+                3.5067394396886145,
+                -0.5045609570007971
+            ],
+            "pure_music_results": [
+                {
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 6.560262880174191,
+                    "estimated_aoa_deg": -3.75,
+                    "angular_error_deg": 10.310262880174179,
+                    "eigenvalues": [
+                        2068587.75,
+                        1394416.25,
+                        621404.8125,
+                        474959.21875
+                    ]
+                },
+                {
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -4.7003007457404715,
+                    "estimated_aoa_deg": -0.25,
+                    "angular_error_deg": 4.4503007457404635,
+                    "eigenvalues": [
+                        2218536.75,
+                        1237019.5,
+                        703944.125,
+                        369626.125
+                    ]
+                },
+                {
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": -17.5,
+                    "angular_error_deg": 3.4843179892788214,
+                    "eigenvalues": [
+                        2419033.25,
+                        1148613.875,
+                        667689.25,
+                        345678.59375
+                    ]
+                },
+                {
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -4.384058495888273,
+                    "estimated_aoa_deg": 38.75,
+                    "angular_error_deg": 43.13405849588827,
+                    "eigenvalues": [
+                        2323524.75,
+                        1586491.125,
+                        363815.9375,
+                        200123.296875
+                    ]
+                }
+            ],
+            "internal_pca_results": [
+                {
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "results": [
+                        {
+                            "array_index": 0,
+                            "array_name": "espargosnorth",
+                            "true_aoa_deg": 6.560262880174191,
+                            "estimated_aoa_deg": -3.75,
+                            "angular_error_deg": 10.310262880174179,
+                            "eigenvalues": [
+                                2068587.625,
+                                1394416.125,
+                                621404.875,
+                                474959.28125
+                            ],
+                            "internal_pca_variance_threshold": 0.9,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        },
+                        {
+                            "array_index": 0,
+                            "array_name": "espargosnorth",
+                            "true_aoa_deg": 6.560262880174191,
+                            "estimated_aoa_deg": -3.75,
+                            "angular_error_deg": 10.310262880174179,
+                            "eigenvalues": [
+                                2068587.625,
+                                1394416.125,
+                                621404.875,
+                                474959.28125
+                            ],
+                            "internal_pca_variance_threshold": 0.95,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        },
+                        {
+                            "array_index": 0,
+                            "array_name": "espargosnorth",
+                            "true_aoa_deg": 6.560262880174191,
+                            "estimated_aoa_deg": -3.75,
+                            "angular_error_deg": 10.310262880174179,
+                            "eigenvalues": [
+                                2068587.625,
+                                1394416.125,
+                                621404.875,
+                                474959.28125
+                            ],
+                            "internal_pca_variance_threshold": 0.99,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        }
+                    ]
+                },
+                {
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "results": [
+                        {
+                            "array_index": 1,
+                            "array_name": "espargoswest",
+                            "true_aoa_deg": -4.7003007457404715,
+                            "estimated_aoa_deg": -0.25,
+                            "angular_error_deg": 4.4503007457404635,
+                            "eigenvalues": [
+                                2218536.75,
+                                1237019.5,
+                                703944.125,
+                                0.031500328332185745
+                            ],
+                            "internal_pca_variance_threshold": 0.9,
+                            "internal_pca_components": 3,
+                            "internal_pca_preserved_variance": 0.9183891415596008
+                        },
+                        {
+                            "array_index": 1,
+                            "array_name": "espargoswest",
+                            "true_aoa_deg": -4.7003007457404715,
+                            "estimated_aoa_deg": -0.25,
+                            "angular_error_deg": 4.4503007457404635,
+                            "eigenvalues": [
+                                2218536.75,
+                                1237019.375,
+                                703944.0625,
+                                369626.1875
+                            ],
+                            "internal_pca_variance_threshold": 0.95,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        },
+                        {
+                            "array_index": 1,
+                            "array_name": "espargoswest",
+                            "true_aoa_deg": -4.7003007457404715,
+                            "estimated_aoa_deg": -0.25,
+                            "angular_error_deg": 4.4503007457404635,
+                            "eigenvalues": [
+                                2218536.75,
+                                1237019.375,
+                                703944.0625,
+                                369626.1875
+                            ],
+                            "internal_pca_variance_threshold": 0.99,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        }
+                    ]
+                },
+                {
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "results": [
+                        {
+                            "array_index": 2,
+                            "array_name": "espargossouth",
+                            "true_aoa_deg": -14.015682010721166,
+                            "estimated_aoa_deg": -17.5,
+                            "angular_error_deg": 3.4843179892788214,
+                            "eigenvalues": [
+                                2419033.25,
+                                1148613.875,
+                                667689.1875,
+                                0.05703815445303917
+                            ],
+                            "internal_pca_variance_threshold": 0.9,
+                            "internal_pca_components": 3,
+                            "internal_pca_preserved_variance": 0.9245410561561584
+                        },
+                        {
+                            "array_index": 2,
+                            "array_name": "espargossouth",
+                            "true_aoa_deg": -14.015682010721166,
+                            "estimated_aoa_deg": -17.5,
+                            "angular_error_deg": 3.4843179892788214,
+                            "eigenvalues": [
+                                2419033.25,
+                                1148613.875,
+                                667689.25,
+                                345678.65625
+                            ],
+                            "internal_pca_variance_threshold": 0.95,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        },
+                        {
+                            "array_index": 2,
+                            "array_name": "espargossouth",
+                            "true_aoa_deg": -14.015682010721166,
+                            "estimated_aoa_deg": -17.5,
+                            "angular_error_deg": 3.4843179892788214,
+                            "eigenvalues": [
+                                2419033.25,
+                                1148613.875,
+                                667689.25,
+                                345678.65625
+                            ],
+                            "internal_pca_variance_threshold": 0.99,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        }
+                    ]
+                },
+                {
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "results": [
+                        {
+                            "array_index": 3,
+                            "array_name": "espargoseast",
+                            "true_aoa_deg": -4.384058495888273,
+                            "estimated_aoa_deg": 38.75,
+                            "angular_error_deg": 43.13405849588827,
+                            "eigenvalues": [
+                                2323524.75,
+                                1586491.125,
+                                363815.9375,
+                                -0.010760478675365448
+                            ],
+                            "internal_pca_variance_threshold": 0.9,
+                            "internal_pca_components": 3,
+                            "internal_pca_preserved_variance": 0.9552692174911499
+                        },
+                        {
+                            "array_index": 3,
+                            "array_name": "espargoseast",
+                            "true_aoa_deg": -4.384058495888273,
+                            "estimated_aoa_deg": 38.75,
+                            "angular_error_deg": 43.13405849588827,
+                            "eigenvalues": [
+                                2323524.75,
+                                1586491.125,
+                                363815.9375,
+                                -0.010760478675365448
+                            ],
+                            "internal_pca_variance_threshold": 0.95,
+                            "internal_pca_components": 3,
+                            "internal_pca_preserved_variance": 0.9552692174911499
+                        },
+                        {
+                            "array_index": 3,
+                            "array_name": "espargoseast",
+                            "true_aoa_deg": -4.384058495888273,
+                            "estimated_aoa_deg": 38.75,
+                            "angular_error_deg": 43.13405849588827,
+                            "eigenvalues": [
+                                2323524.75,
+                                1586491.125,
+                                363815.90625,
+                                200123.265625
+                            ],
+                            "internal_pca_variance_threshold": 0.99,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        }
+                    ]
+                }
+            ],
+            "pure_music_errors_by_array": [
+                10.310262880174179,
+                4.4503007457404635,
+                3.4843179892788214,
+                43.13405849588827
+            ],
+            "best_internal_pca_errors_by_array": [
+                10.310262880174179,
+                4.4503007457404635,
+                3.4843179892788214,
+                43.13405849588827
+            ],
+            "best_internal_pca_metadata": [
+                {
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "best_error_deg": 10.310262880174179,
+                    "best_variance_threshold": 0.9,
+                    "best_components": 4,
+                    "best_preserved_variance": 1.0
+                },
+                {
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "best_error_deg": 4.4503007457404635,
+                    "best_variance_threshold": 0.9,
+                    "best_components": 3,
+                    "best_preserved_variance": 0.9183891415596008
+                },
+                {
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "best_error_deg": 3.4843179892788214,
+                    "best_variance_threshold": 0.9,
+                    "best_components": 3,
+                    "best_preserved_variance": 0.9245410561561584
+                },
+                {
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "best_error_deg": 43.13405849588827,
+                    "best_variance_threshold": 0.9,
+                    "best_components": 3,
+                    "best_preserved_variance": 0.9552692174911499
+                }
+            ]
+        },
+        {
+            "scenario_key": "meanders_nw_se",
+            "scenario_name": "human_helmet_meanders_nw_se_1",
+            "scenario_label": "Meanders NW-SE",
+            "csi_shape": [
+                9257,
+                4,
+                2,
+                4,
+                53
+            ],
+            "mean_position": [
+                0.6933771821945629,
+                3.363181350595777,
+                -0.5058545272116419
+            ],
+            "pure_music_results": [
+                {
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 3.57341271561328,
+                    "estimated_aoa_deg": -2.5,
+                    "angular_error_deg": 6.073412715613273,
+                    "eigenvalues": [
+                        2040003.375,
+                        1344395.25,
+                        691199.5,
+                        486708.59375
+                    ]
+                },
+                {
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -7.500279702739315,
+                    "estimated_aoa_deg": 64.5,
+                    "angular_error_deg": 72.0002797027393,
+                    "eigenvalues": [
+                        2179808.75,
+                        1242358.625,
+                        760211.8125,
+                        350656.5
+                    ]
+                },
+                {
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -16.75,
+                    "angular_error_deg": 3.441330179544991,
+                    "eigenvalues": [
+                        2322031.25,
+                        1138514.125,
+                        697040.5625,
+                        403751.96875
+                    ]
+                },
+                {
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -1.77058333375126,
+                    "estimated_aoa_deg": 38.75,
+                    "angular_error_deg": 40.52058333375126,
+                    "eigenvalues": [
+                        2286846.75,
+                        1632598.625,
+                        372284.1875,
+                        202083.40625
+                    ]
+                }
+            ],
+            "internal_pca_results": [
+                {
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "results": [
+                        {
+                            "array_index": 0,
+                            "array_name": "espargosnorth",
+                            "true_aoa_deg": 3.57341271561328,
+                            "estimated_aoa_deg": -2.5,
+                            "angular_error_deg": 6.073412715613273,
+                            "eigenvalues": [
+                                2040003.375,
+                                1344395.125,
+                                691199.4375,
+                                486708.5625
+                            ],
+                            "internal_pca_variance_threshold": 0.9,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        },
+                        {
+                            "array_index": 0,
+                            "array_name": "espargosnorth",
+                            "true_aoa_deg": 3.57341271561328,
+                            "estimated_aoa_deg": -2.5,
+                            "angular_error_deg": 6.073412715613273,
+                            "eigenvalues": [
+                                2040003.375,
+                                1344395.125,
+                                691199.4375,
+                                486708.5625
+                            ],
+                            "internal_pca_variance_threshold": 0.95,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        },
+                        {
+                            "array_index": 0,
+                            "array_name": "espargosnorth",
+                            "true_aoa_deg": 3.57341271561328,
+                            "estimated_aoa_deg": -2.5,
+                            "angular_error_deg": 6.073412715613273,
+                            "eigenvalues": [
+                                2040003.375,
+                                1344395.125,
+                                691199.4375,
+                                486708.5625
+                            ],
+                            "internal_pca_variance_threshold": 0.99,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        }
+                    ]
+                },
+                {
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "results": [
+                        {
+                            "array_index": 1,
+                            "array_name": "espargoswest",
+                            "true_aoa_deg": -7.500279702739315,
+                            "estimated_aoa_deg": 64.5,
+                            "angular_error_deg": 72.0002797027393,
+                            "eigenvalues": [
+                                2179808.75,
+                                1242358.625,
+                                760211.8125,
+                                0.027761518955230713
+                            ],
+                            "internal_pca_variance_threshold": 0.9,
+                            "internal_pca_components": 3,
+                            "internal_pca_preserved_variance": 0.9226441979408264
+                        },
+                        {
+                            "array_index": 1,
+                            "array_name": "espargoswest",
+                            "true_aoa_deg": -7.500279702739315,
+                            "estimated_aoa_deg": 64.5,
+                            "angular_error_deg": 72.0002797027393,
+                            "eigenvalues": [
+                                2179808.75,
+                                1242358.625,
+                                760211.8125,
+                                350656.53125
+                            ],
+                            "internal_pca_variance_threshold": 0.95,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        },
+                        {
+                            "array_index": 1,
+                            "array_name": "espargoswest",
+                            "true_aoa_deg": -7.500279702739315,
+                            "estimated_aoa_deg": 64.5,
+                            "angular_error_deg": 72.0002797027393,
+                            "eigenvalues": [
+                                2179808.75,
+                                1242358.625,
+                                760211.8125,
+                                350656.53125
+                            ],
+                            "internal_pca_variance_threshold": 0.99,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        }
+                    ]
+                },
+                {
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "results": [
+                        {
+                            "array_index": 2,
+                            "array_name": "espargossouth",
+                            "true_aoa_deg": -13.308669820454998,
+                            "estimated_aoa_deg": -16.75,
+                            "angular_error_deg": 3.441330179544991,
+                            "eigenvalues": [
+                                2322031.25,
+                                1138514.125,
+                                697040.5,
+                                -0.0407719761133194
+                            ],
+                            "internal_pca_variance_threshold": 0.9,
+                            "internal_pca_components": 3,
+                            "internal_pca_preserved_variance": 0.911483883857727
+                        },
+                        {
+                            "array_index": 2,
+                            "array_name": "espargossouth",
+                            "true_aoa_deg": -13.308669820454998,
+                            "estimated_aoa_deg": -16.75,
+                            "angular_error_deg": 3.441330179544991,
+                            "eigenvalues": [
+                                2322031.25,
+                                1138514.125,
+                                697040.5,
+                                403751.90625
+                            ],
+                            "internal_pca_variance_threshold": 0.95,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        },
+                        {
+                            "array_index": 2,
+                            "array_name": "espargossouth",
+                            "true_aoa_deg": -13.308669820454998,
+                            "estimated_aoa_deg": -16.75,
+                            "angular_error_deg": 3.441330179544991,
+                            "eigenvalues": [
+                                2322031.25,
+                                1138514.125,
+                                697040.5,
+                                403751.90625
+                            ],
+                            "internal_pca_variance_threshold": 0.99,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        }
+                    ]
+                },
+                {
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "results": [
+                        {
+                            "array_index": 3,
+                            "array_name": "espargoseast",
+                            "true_aoa_deg": -1.77058333375126,
+                            "estimated_aoa_deg": 38.75,
+                            "angular_error_deg": 40.52058333375126,
+                            "eigenvalues": [
+                                2286846.75,
+                                1632598.75,
+                                372284.1875,
+                                0.06404042989015579
+                            ],
+                            "internal_pca_variance_threshold": 0.9,
+                            "internal_pca_components": 3,
+                            "internal_pca_preserved_variance": 0.9550307393074036
+                        },
+                        {
+                            "array_index": 3,
+                            "array_name": "espargoseast",
+                            "true_aoa_deg": -1.77058333375126,
+                            "estimated_aoa_deg": 38.75,
+                            "angular_error_deg": 40.52058333375126,
+                            "eigenvalues": [
+                                2286846.75,
+                                1632598.75,
+                                372284.1875,
+                                0.06404042989015579
+                            ],
+                            "internal_pca_variance_threshold": 0.95,
+                            "internal_pca_components": 3,
+                            "internal_pca_preserved_variance": 0.9550307393074036
+                        },
+                        {
+                            "array_index": 3,
+                            "array_name": "espargoseast",
+                            "true_aoa_deg": -1.77058333375126,
+                            "estimated_aoa_deg": 38.75,
+                            "angular_error_deg": 40.52058333375126,
+                            "eigenvalues": [
+                                2286846.75,
+                                1632598.75,
+                                372284.15625,
+                                202083.40625
+                            ],
+                            "internal_pca_variance_threshold": 0.99,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        }
+                    ]
+                }
+            ],
+            "pure_music_errors_by_array": [
+                6.073412715613273,
+                72.0002797027393,
+                3.441330179544991,
+                40.52058333375126
+            ],
+            "best_internal_pca_errors_by_array": [
+                6.073412715613273,
+                72.0002797027393,
+                3.441330179544991,
+                40.52058333375126
+            ],
+            "best_internal_pca_metadata": [
+                {
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "best_error_deg": 6.073412715613273,
+                    "best_variance_threshold": 0.9,
+                    "best_components": 4,
+                    "best_preserved_variance": 1.0
+                },
+                {
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "best_error_deg": 72.0002797027393,
+                    "best_variance_threshold": 0.9,
+                    "best_components": 3,
+                    "best_preserved_variance": 0.9226441979408264
+                },
+                {
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "best_error_deg": 3.441330179544991,
+                    "best_variance_threshold": 0.9,
+                    "best_components": 3,
+                    "best_preserved_variance": 0.911483883857727
+                },
+                {
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "best_error_deg": 40.52058333375126,
+                    "best_variance_threshold": 0.9,
+                    "best_components": 3,
+                    "best_preserved_variance": 0.9550307393074036
+                }
+            ]
+        },
+        {
+            "scenario_key": "meanders_sw_ne",
+            "scenario_name": "human_helmet_meanders_sw_ne_1",
+            "scenario_label": "Meanders SW-NE",
+            "csi_shape": [
+                17144,
+                4,
+                2,
+                4,
+                53
+            ],
+            "mean_position": [
+                0.7593431367221444,
+                3.302407965770293,
+                -0.508872269365276
+            ],
+            "pure_music_results": [
+                {
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 4.5257916125721,
+                    "estimated_aoa_deg": -2.0,
+                    "angular_error_deg": 6.525791612572107,
+                    "eigenvalues": [
+                        2047565.5,
+                        1339579.75,
+                        674390.625,
+                        504402.09375
+                    ]
+                },
+                {
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -8.522641147933479,
+                    "estimated_aoa_deg": 64.5,
+                    "angular_error_deg": 73.02264114793348,
+                    "eigenvalues": [
+                        2188565.75,
+                        1221800.125,
+                        742684.0625,
+                        351733.34375
+                    ]
+                },
+                {
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -16.5,
+                    "angular_error_deg": 1.4607023733424285,
+                    "eigenvalues": [
+                        2304889.75,
+                        1149818.75,
+                        694713.1875,
+                        418648.125
+                    ]
+                },
+                {
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -0.9422304594489113,
+                    "estimated_aoa_deg": 39.25,
+                    "angular_error_deg": 40.19223045944892,
+                    "eigenvalues": [
+                        2296359.5,
+                        1610466.0,
+                        362735.53125,
+                        197661.75
+                    ]
+                }
+            ],
+            "internal_pca_results": [
+                {
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "results": [
+                        {
+                            "array_index": 0,
+                            "array_name": "espargosnorth",
+                            "true_aoa_deg": 4.5257916125721,
+                            "estimated_aoa_deg": -2.0,
+                            "angular_error_deg": 6.525791612572107,
+                            "eigenvalues": [
+                                2047565.625,
+                                1339579.75,
+                                674390.6875,
+                                504402.0625
+                            ],
+                            "internal_pca_variance_threshold": 0.9,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        },
+                        {
+                            "array_index": 0,
+                            "array_name": "espargosnorth",
+                            "true_aoa_deg": 4.5257916125721,
+                            "estimated_aoa_deg": -2.0,
+                            "angular_error_deg": 6.525791612572107,
+                            "eigenvalues": [
+                                2047565.625,
+                                1339579.75,
+                                674390.6875,
+                                504402.0625
+                            ],
+                            "internal_pca_variance_threshold": 0.95,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        },
+                        {
+                            "array_index": 0,
+                            "array_name": "espargosnorth",
+                            "true_aoa_deg": 4.5257916125721,
+                            "estimated_aoa_deg": -2.0,
+                            "angular_error_deg": 6.525791612572107,
+                            "eigenvalues": [
+                                2047565.625,
+                                1339579.75,
+                                674390.6875,
+                                504402.0625
+                            ],
+                            "internal_pca_variance_threshold": 0.99,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        }
+                    ]
+                },
+                {
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "results": [
+                        {
+                            "array_index": 1,
+                            "array_name": "espargoswest",
+                            "true_aoa_deg": -8.522641147933479,
+                            "estimated_aoa_deg": 64.5,
+                            "angular_error_deg": 73.02264114793348,
+                            "eigenvalues": [
+                                2188565.75,
+                                1221800.125,
+                                742684.0,
+                                -0.04441433772444725
+                            ],
+                            "internal_pca_variance_threshold": 0.9,
+                            "internal_pca_components": 3,
+                            "internal_pca_preserved_variance": 0.9219200015068054
+                        },
+                        {
+                            "array_index": 1,
+                            "array_name": "espargoswest",
+                            "true_aoa_deg": -8.522641147933479,
+                            "estimated_aoa_deg": 64.5,
+                            "angular_error_deg": 73.02264114793348,
+                            "eigenvalues": [
+                                2188565.75,
+                                1221800.125,
+                                742684.0,
+                                351733.34375
+                            ],
+                            "internal_pca_variance_threshold": 0.95,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        },
+                        {
+                            "array_index": 1,
+                            "array_name": "espargoswest",
+                            "true_aoa_deg": -8.522641147933479,
+                            "estimated_aoa_deg": 64.5,
+                            "angular_error_deg": 73.02264114793348,
+                            "eigenvalues": [
+                                2188565.75,
+                                1221800.125,
+                                742684.0,
+                                351733.34375
+                            ],
+                            "internal_pca_variance_threshold": 0.99,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        }
+                    ]
+                },
+                {
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "results": [
+                        {
+                            "array_index": 2,
+                            "array_name": "espargossouth",
+                            "true_aoa_deg": -15.039297626657573,
+                            "estimated_aoa_deg": -16.5,
+                            "angular_error_deg": 1.4607023733424285,
+                            "eigenvalues": [
+                                2304889.75,
+                                1149818.75,
+                                694713.25,
+                                -0.0502295084297657
+                            ],
+                            "internal_pca_variance_threshold": 0.9,
+                            "internal_pca_components": 3,
+                            "internal_pca_preserved_variance": 0.9083533883094788
+                        },
+                        {
+                            "array_index": 2,
+                            "array_name": "espargossouth",
+                            "true_aoa_deg": -15.039297626657573,
+                            "estimated_aoa_deg": -16.5,
+                            "angular_error_deg": 1.4607023733424285,
+                            "eigenvalues": [
+                                2304889.75,
+                                1149818.75,
+                                694713.25,
+                                418648.0625
+                            ],
+                            "internal_pca_variance_threshold": 0.95,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        },
+                        {
+                            "array_index": 2,
+                            "array_name": "espargossouth",
+                            "true_aoa_deg": -15.039297626657573,
+                            "estimated_aoa_deg": -16.5,
+                            "angular_error_deg": 1.4607023733424285,
+                            "eigenvalues": [
+                                2304889.75,
+                                1149818.75,
+                                694713.25,
+                                418648.0625
+                            ],
+                            "internal_pca_variance_threshold": 0.99,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        }
+                    ]
+                },
+                {
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "results": [
+                        {
+                            "array_index": 3,
+                            "array_name": "espargoseast",
+                            "true_aoa_deg": -0.9422304594489113,
+                            "estimated_aoa_deg": 39.25,
+                            "angular_error_deg": 40.19223045944892,
+                            "eigenvalues": [
+                                2296359.5,
+                                1610466.0,
+                                362735.5,
+                                -0.00613823439925909
+                            ],
+                            "internal_pca_variance_threshold": 0.9,
+                            "internal_pca_components": 3,
+                            "internal_pca_preserved_variance": 0.9557528495788574
+                        },
+                        {
+                            "array_index": 3,
+                            "array_name": "espargoseast",
+                            "true_aoa_deg": -0.9422304594489113,
+                            "estimated_aoa_deg": 39.25,
+                            "angular_error_deg": 40.19223045944892,
+                            "eigenvalues": [
+                                2296359.5,
+                                1610466.0,
+                                362735.5,
+                                -0.00613823439925909
+                            ],
+                            "internal_pca_variance_threshold": 0.95,
+                            "internal_pca_components": 3,
+                            "internal_pca_preserved_variance": 0.9557528495788574
+                        },
+                        {
+                            "array_index": 3,
+                            "array_name": "espargoseast",
+                            "true_aoa_deg": -0.9422304594489113,
+                            "estimated_aoa_deg": 39.25,
+                            "angular_error_deg": 40.19223045944892,
+                            "eigenvalues": [
+                                2296359.5,
+                                1610466.0,
+                                362735.46875,
+                                197661.71875
+                            ],
+                            "internal_pca_variance_threshold": 0.99,
+                            "internal_pca_components": 4,
+                            "internal_pca_preserved_variance": 1.0
+                        }
+                    ]
+                }
+            ],
+            "pure_music_errors_by_array": [
+                6.525791612572107,
+                73.02264114793348,
+                1.4607023733424285,
+                40.19223045944892
+            ],
+            "best_internal_pca_errors_by_array": [
+                6.525791612572107,
+                73.02264114793348,
+                1.4607023733424285,
+                40.19223045944892
+            ],
+            "best_internal_pca_metadata": [
+                {
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "best_error_deg": 6.525791612572107,
+                    "best_variance_threshold": 0.9,
+                    "best_components": 4,
+                    "best_preserved_variance": 1.0
+                },
+                {
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "best_error_deg": 73.02264114793348,
+                    "best_variance_threshold": 0.9,
+                    "best_components": 3,
+                    "best_preserved_variance": 0.9219200015068054
+                },
+                {
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "best_error_deg": 1.4607023733424285,
+                    "best_variance_threshold": 0.9,
+                    "best_components": 3,
+                    "best_preserved_variance": 0.9083533883094788
+                },
+                {
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "best_error_deg": 40.19223045944892,
+                    "best_variance_threshold": 0.9,
+                    "best_components": 3,
+                    "best_preserved_variance": 0.9557528495788574
+                }
+            ]
+        }
+    ],
+    "pure_music_error_matrix": [
+        [
+            10.310262880174179,
+            4.4503007457404635,
+            3.4843179892788214,
+            43.13405849588827
+        ],
+        [
+            6.073412715613273,
+            72.0002797027393,
+            3.441330179544991,
+            40.52058333375126
+        ],
+        [
+            6.525791612572107,
+            73.02264114793348,
+            1.4607023733424285,
+            40.19223045944892
+        ]
+    ],
+    "best_internal_pca_error_matrix": [
+        [
+            10.310262880174179,
+            4.4503007457404635,
+            3.4843179892788214,
+            43.13405849588827
+        ],
+        [
+            6.073412715613273,
+            72.0002797027393,
+            3.441330179544991,
+            40.52058333375126
+        ],
+        [
+            6.525791612572107,
+            73.02264114793348,
+            1.4607023733424285,
+            40.19223045944892
+        ]
+    ],
+    "mean_errors": {
+        "pure_music": 25.384659303002294,
+        "internal_pca_music": 25.384659303002294
+    }
+}

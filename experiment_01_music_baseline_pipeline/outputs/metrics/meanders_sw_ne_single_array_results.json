@@ -1,0 +1,84 @@
+{
+    "scenario": "human_helmet_meanders_sw_ne_1",
+    "baseline": {
+        "true_aoa_deg": -15.039297626657573,
+        "estimated_aoa_deg": -16.5,
+        "angular_error_deg": 1.4607023733424285,
+        "eigenvalues": [
+            2304889.75,
+            1149818.75,
+            694713.1875,
+            418648.125
+        ]
+    },
+    "joint_results": [
+        {
+            "true_aoa_deg": -15.039297626657573,
+            "estimated_aoa_deg": -16.5,
+            "angular_error_deg": 1.4607023733424285,
+            "eigenvalues": [
+                2249977.25,
+                1090292.125,
+                620612.75,
+                370370.5625
+            ]
+        },
+        {
+            "true_aoa_deg": -15.039297626657573,
+            "estimated_aoa_deg": -16.5,
+            "angular_error_deg": 1.4607023733424285,
+            "eigenvalues": [
+                2249977.25,
+                1090292.125,
+                620612.75,
+                370370.5625
+            ]
+        },
+        {
+            "true_aoa_deg": -15.039297626657573,
+            "estimated_aoa_deg": -16.5,
+            "angular_error_deg": 1.4607023733424285,
+            "eigenvalues": [
+                2293379.75,
+                1138940.375,
+                683883.8125,
+                407758.53125
+            ]
+        }
+    ],
+    "separate_results": [
+        {
+            "true_aoa_deg": -15.039297626657573,
+            "estimated_aoa_deg": -16.25,
+            "angular_error_deg": 1.2107023733424285,
+            "eigenvalues": [
+                2141711.75,
+                1088723.25,
+                645745.0,
+                367612.21875
+            ]
+        },
+        {
+            "true_aoa_deg": -15.039297626657573,
+            "estimated_aoa_deg": -16.5,
+            "angular_error_deg": 1.4607023733424285,
+            "eigenvalues": [
+                2256155.5,
+                1095448.625,
+                626350.375,
+                372648.4375
+            ]
+        },
+        {
+            "true_aoa_deg": -15.039297626657573,
+            "estimated_aoa_deg": -16.5,
+            "angular_error_deg": 1.4607023733424285,
+            "eigenvalues": [
+                2294237.5,
+                1139050.625,
+                681499.0,
+                408353.5625
+            ]
+        }
+    ]
+}

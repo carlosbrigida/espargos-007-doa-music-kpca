@@ -1,0 +1,3727 @@
+{
+    "experiment": "r_space_pca_kpca_music_without_crap",
+    "frequency_hz": 2472000000.0,
+    "n_sources": 2,
+    "crap_enabled": false,
+    "baseline": {
+        "results": [
+            {
+                "method": "pure_music",
+                "scenario_key": "standing_center",
+                "scenario_label": "Standing Center",
+                "array_index": 0,
+                "array_name": "espargosnorth",
+                "true_aoa_deg": 6.560262880174191,
+                "estimated_aoa_deg": -3.75,
+                "angular_error_deg": 10.310262880174179,
+                "eigenvalues": [
+                    2068587.75,
+                    1394416.25,
+                    621404.8125,
+                    474959.21875
+                ]
+            },
+            {
+                "method": "pure_music",
+                "scenario_key": "standing_center",
+                "scenario_label": "Standing Center",
+                "array_index": 1,
+                "array_name": "espargoswest",
+                "true_aoa_deg": -4.7003007457404715,
+                "estimated_aoa_deg": -0.25,
+                "angular_error_deg": 4.4503007457404635,
+                "eigenvalues": [
+                    2218536.75,
+                    1237019.5,
+                    703944.125,
+                    369626.125
+                ]
+            },
+            {
+                "method": "pure_music",
+                "scenario_key": "standing_center",
+                "scenario_label": "Standing Center",
+                "array_index": 2,
+                "array_name": "espargossouth",
+                "true_aoa_deg": -14.015682010721166,
+                "estimated_aoa_deg": -17.5,
+                "angular_error_deg": 3.4843179892788214,
+                "eigenvalues": [
+                    2419033.25,
+                    1148613.875,
+                    667689.25,
+                    345678.59375
+                ]
+            },
+            {
+                "method": "pure_music",
+                "scenario_key": "standing_center",
+                "scenario_label": "Standing Center",
+                "array_index": 3,
+                "array_name": "espargoseast",
+                "true_aoa_deg": -4.384058495888273,
+                "estimated_aoa_deg": 38.75,
+                "angular_error_deg": 43.13405849588827,
+                "eigenvalues": [
+                    2323524.75,
+                    1586491.125,
+                    363815.9375,
+                    200123.296875
+                ]
+            },
+            {
+                "method": "pure_music",
+                "scenario_key": "meanders_nw_se",
+                "scenario_label": "Meanders NW-SE",
+                "array_index": 0,
+                "array_name": "espargosnorth",
+                "true_aoa_deg": 3.57341271561328,
+                "estimated_aoa_deg": -2.5,
+                "angular_error_deg": 6.073412715613273,
+                "eigenvalues": [
+                    2040003.375,
+                    1344395.25,
+                    691199.5,
+                    486708.59375
+                ]
+            },
+            {
+                "method": "pure_music",
+                "scenario_key": "meanders_nw_se",
+                "scenario_label": "Meanders NW-SE",
+                "array_index": 1,
+                "array_name": "espargoswest",
+                "true_aoa_deg": -7.500279702739315,
+                "estimated_aoa_deg": 64.5,
+                "angular_error_deg": 72.0002797027393,
+                "eigenvalues": [
+                    2179808.75,
+                    1242358.625,
+                    760211.8125,
+                    350656.5
+                ]
+            },
+            {
+                "method": "pure_music",
+                "scenario_key": "meanders_nw_se",
+                "scenario_label": "Meanders NW-SE",
+                "array_index": 2,
+                "array_name": "espargossouth",
+                "true_aoa_deg": -13.308669820454998,
+                "estimated_aoa_deg": -16.75,
+                "angular_error_deg": 3.441330179544991,
+                "eigenvalues": [
+                    2322031.25,
+                    1138514.125,
+                    697040.5625,
+                    403751.96875
+                ]
+            },
+            {
+                "method": "pure_music",
+                "scenario_key": "meanders_nw_se",
+                "scenario_label": "Meanders NW-SE",
+                "array_index": 3,
+                "array_name": "espargoseast",
+                "true_aoa_deg": -1.77058333375126,
+                "estimated_aoa_deg": 38.75,
+                "angular_error_deg": 40.52058333375126,
+                "eigenvalues": [
+                    2286846.75,
+                    1632598.625,
+                    372284.1875,
+                    202083.40625
+                ]
+            },
+            {
+                "method": "pure_music",
+                "scenario_key": "meanders_sw_ne",
+                "scenario_label": "Meanders SW-NE",
+                "array_index": 0,
+                "array_name": "espargosnorth",
+                "true_aoa_deg": 4.5257916125721,
+                "estimated_aoa_deg": -2.0,
+                "angular_error_deg": 6.525791612572107,
+                "eigenvalues": [
+                    2047565.5,
+                    1339579.75,
+                    674390.625,
+                    504402.09375
+                ]
+            },
+            {
+                "method": "pure_music",
+                "scenario_key": "meanders_sw_ne",
+                "scenario_label": "Meanders SW-NE",
+                "array_index": 1,
+                "array_name": "espargoswest",
+                "true_aoa_deg": -8.522641147933479,
+                "estimated_aoa_deg": 64.5,
+                "angular_error_deg": 73.02264114793348,
+                "eigenvalues": [
+                    2188565.75,
+                    1221800.125,
+                    742684.0625,
+                    351733.34375
+                ]
+            },
+            {
+                "method": "pure_music",
+                "scenario_key": "meanders_sw_ne",
+                "scenario_label": "Meanders SW-NE",
+                "array_index": 2,
+                "array_name": "espargossouth",
+                "true_aoa_deg": -15.039297626657573,
+                "estimated_aoa_deg": -16.5,
+                "angular_error_deg": 1.4607023733424285,
+                "eigenvalues": [
+                    2304889.75,
+                    1149818.75,
+                    694713.1875,
+                    418648.125
+                ]
+            },
+            {
+                "method": "pure_music",
+                "scenario_key": "meanders_sw_ne",
+                "scenario_label": "Meanders SW-NE",
+                "array_index": 3,
+                "array_name": "espargoseast",
+                "true_aoa_deg": -0.9422304594489113,
+                "estimated_aoa_deg": 39.25,
+                "angular_error_deg": 40.19223045944892,
+                "eigenvalues": [
+                    2296359.5,
+                    1610466.0,
+                    362735.53125,
+                    197661.75
+                ]
+            }
+        ],
+        "summary": {
+            "mean_error_deg": 25.384659303002294,
+            "median_error_deg": 8.418027246373143,
+            "min_error_deg": 1.4607023733424285,
+            "max_error_deg": 73.02264114793348
+        }
+    },
+    "pca": [
+        {
+            "stats": {
+                "n_components": 2,
+                "explained_variance": 0.8268516063690186
+            },
+            "results": [
+                {
+                    "method": "pca_R_nc2",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 6.560262880174191,
+                    "estimated_aoa_deg": -5.5,
+                    "angular_error_deg": 12.060262880174179,
+                    "eigenvalues": [
+                        2037964.75,
+                        1261276.75,
+                        753130.0625,
+                        527920.0
+                    ]
+                },
+                {
+                    "method": "pca_R_nc2",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -4.7003007457404715,
+                    "estimated_aoa_deg": 63.75,
+                    "angular_error_deg": 68.45030074574049,
+                    "eigenvalues": [
+                        2129391.25,
+                        1279430.375,
+                        812677.0625,
+                        292661.0
+                    ]
+                },
+                {
+                    "method": "pca_R_nc2",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": -15.0,
+                    "angular_error_deg": 0.9843179892788214,
+                    "eigenvalues": [
+                        2020332.25,
+                        1488954.375,
+                        707600.0625,
+                        331716.625
+                    ]
+                },
+                {
+                    "method": "pca_R_nc2",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -4.384058495888273,
+                    "estimated_aoa_deg": 40.75,
+                    "angular_error_deg": 45.13405849588827,
+                    "eigenvalues": [
+                        2151194.0,
+                        1746992.125,
+                        435665.34375,
+                        157641.953125
+                    ]
+                },
+                {
+                    "method": "pca_R_nc2",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 3.57341271561328,
+                    "estimated_aoa_deg": -5.25,
+                    "angular_error_deg": 8.823412715613273,
+                    "eigenvalues": [
+                        2002216.625,
+                        1248200.0,
+                        759591.0625,
+                        567431.875
+                    ]
+                },
+                {
+                    "method": "pca_R_nc2",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -7.500279702739315,
+                    "estimated_aoa_deg": 63.75,
+                    "angular_error_deg": 71.2502797027393,
+                    "eigenvalues": [
+                        2111325.5,
+                        1282852.25,
+                        818532.375,
+                        302234.03125
+                    ]
+                },
+                {
+                    "method": "pca_R_nc2",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -14.5,
+                    "angular_error_deg": 1.191330179544991,
+                    "eigenvalues": [
+                        1976298.25,
+                        1452394.5,
+                        740816.625,
+                        379667.65625
+                    ]
+                },
+                {
+                    "method": "pca_R_nc2",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -1.77058333375126,
+                    "estimated_aoa_deg": 40.25,
+                    "angular_error_deg": 42.02058333375126,
+                    "eigenvalues": [
+                        2150595.5,
+                        1772754.75,
+                        417374.90625,
+                        151687.125
+                    ]
+                },
+                {
+                    "method": "pca_R_nc2",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 4.5257916125721,
+                    "estimated_aoa_deg": -4.75,
+                    "angular_error_deg": 9.275791612572107,
+                    "eigenvalues": [
+                        2021032.0,
+                        1244633.625,
+                        768386.75,
+                        544505.5
+                    ]
+                },
+                {
+                    "method": "pca_R_nc2",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -8.522641147933479,
+                    "estimated_aoa_deg": 63.5,
+                    "angular_error_deg": 72.02264114793348,
+                    "eigenvalues": [
+                        2119916.5,
+                        1271621.5,
+                        819113.375,
+                        303075.59375
+                    ]
+                },
+                {
+                    "method": "pca_R_nc2",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -14.75,
+                    "angular_error_deg": 0.2892976266575715,
+                    "eigenvalues": [
+                        1974764.5,
+                        1462028.25,
+                        732625.125,
+                        378811.65625
+                    ]
+                },
+                {
+                    "method": "pca_R_nc2",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -0.9422304594489113,
+                    "estimated_aoa_deg": 40.75,
+                    "angular_error_deg": 41.69223045944892,
+                    "eigenvalues": [
+                        2162566.5,
+                        1752306.0,
+                        428973.9375,
+                        147088.53125
+                    ]
+                }
+            ],
+            "summary": {
+                "mean_error_deg": 31.099542240778558,
+                "median_error_deg": 26.87624666981155,
+                "min_error_deg": 0.2892976266575715,
+                "max_error_deg": 72.02264114793348
+            }
+        },
+        {
+            "stats": {
+                "n_components": 4,
+                "explained_variance": 0.9984325170516968
+            },
+            "results": [
+                {
+                    "method": "pca_R_nc4",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 6.560262880174191,
+                    "estimated_aoa_deg": -3.75,
+                    "angular_error_deg": 10.310262880174179,
+                    "eigenvalues": [
+                        2058099.875,
+                        1394177.75,
+                        635451.4375,
+                        471035.625
+                    ]
+                },
+                {
+                    "method": "pca_R_nc4",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -4.7003007457404715,
+                    "estimated_aoa_deg": 65.0,
+                    "angular_error_deg": 69.70030074574049,
+                    "eigenvalues": [
+                        2212150.0,
+                        1224631.75,
+                        722812.6875,
+                        365362.53125
+                    ]
+                },
+                {
+                    "method": "pca_R_nc4",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": -17.25,
+                    "angular_error_deg": 3.2343179892788214,
+                    "eigenvalues": [
+                        2419065.0,
+                        1139926.25,
+                        653353.25,
+                        360810.46875
+                    ]
+                },
+                {
+                    "method": "pca_R_nc4",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -4.384058495888273,
+                    "estimated_aoa_deg": 38.75,
+                    "angular_error_deg": 43.13405849588827,
+                    "eigenvalues": [
+                        2330407.25,
+                        1588538.625,
+                        342374.375,
+                        211281.28125
+                    ]
+                },
+                {
+                    "method": "pca_R_nc4",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 3.57341271561328,
+                    "estimated_aoa_deg": -2.5,
+                    "angular_error_deg": 6.073412715613273,
+                    "eigenvalues": [
+                        2037428.5,
+                        1345202.0,
+                        695145.125,
+                        487235.65625
+                    ]
+                },
+                {
+                    "method": "pca_R_nc4",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -7.500279702739315,
+                    "estimated_aoa_deg": 65.0,
+                    "angular_error_deg": 72.5002797027393,
+                    "eigenvalues": [
+                        2182902.0,
+                        1243014.375,
+                        743947.75,
+                        351561.5625
+                    ]
+                },
+                {
+                    "method": "pca_R_nc4",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -16.75,
+                    "angular_error_deg": 3.441330179544991,
+                    "eigenvalues": [
+                        2326063.75,
+                        1136925.625,
+                        705197.625,
+                        402266.71875
+                    ]
+                },
+                {
+                    "method": "pca_R_nc4",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -1.77058333375126,
+                    "estimated_aoa_deg": 38.75,
+                    "angular_error_deg": 40.52058333375126,
+                    "eigenvalues": [
+                        2285540.5,
+                        1627248.0,
+                        372067.1875,
+                        196610.84375
+                    ]
+                },
+                {
+                    "method": "pca_R_nc4",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 4.5257916125721,
+                    "estimated_aoa_deg": -2.25,
+                    "angular_error_deg": 6.775791612572107,
+                    "eigenvalues": [
+                        2055184.375,
+                        1342262.875,
+                        662621.5,
+                        503801.03125
+                    ]
+                },
+                {
+                    "method": "pca_R_nc4",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -8.522641147933479,
+                    "estimated_aoa_deg": 64.5,
+                    "angular_error_deg": 73.02264114793348,
+                    "eigenvalues": [
+                        2190413.75,
+                        1232551.5,
+                        742411.4375,
+                        354708.125
+                    ]
+                },
+                {
+                    "method": "pca_R_nc4",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -16.75,
+                    "angular_error_deg": 1.7107023733424285,
+                    "eigenvalues": [
+                        2298975.0,
+                        1162210.25,
+                        702193.1875,
+                        404155.46875
+                    ]
+                },
+                {
+                    "method": "pca_R_nc4",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -0.9422304594489113,
+                    "estimated_aoa_deg": 39.25,
+                    "angular_error_deg": 40.19223045944892,
+                    "eigenvalues": [
+                        2286952.0,
+                        1614622.125,
+                        388954.1875,
+                        190118.015625
+                    ]
+                }
+            ],
+            "summary": {
+                "mean_error_deg": 30.884659303002294,
+                "median_error_deg": 25.25124666981155,
+                "min_error_deg": 1.7107023733424285,
+                "max_error_deg": 73.02264114793348
+            }
+        },
+        {
+            "stats": {
+                "n_components": 8,
+                "explained_variance": 0.9999054670333862
+            },
+            "results": [
+                {
+                    "method": "pca_R_nc8",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 6.560262880174191,
+                    "estimated_aoa_deg": -3.75,
+                    "angular_error_deg": 10.310262880174179,
+                    "eigenvalues": [
+                        2068096.5,
+                        1393474.875,
+                        620438.25,
+                        474231.71875
+                    ]
+                },
+                {
+                    "method": "pca_R_nc8",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -4.7003007457404715,
+                    "estimated_aoa_deg": 65.5,
+                    "angular_error_deg": 70.20030074574049,
+                    "eigenvalues": [
+                        2218403.5,
+                        1239639.0,
+                        700914.375,
+                        369510.1875
+                    ]
+                },
+                {
+                    "method": "pca_R_nc8",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": -17.5,
+                    "angular_error_deg": 3.4843179892788214,
+                    "eigenvalues": [
+                        2418954.75,
+                        1148077.375,
+                        667288.0,
+                        346615.84375
+                    ]
+                },
+                {
+                    "method": "pca_R_nc8",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -4.384058495888273,
+                    "estimated_aoa_deg": 38.75,
+                    "angular_error_deg": 43.13405849588827,
+                    "eigenvalues": [
+                        2322875.5,
+                        1590479.625,
+                        362026.46875,
+                        202622.609375
+                    ]
+                },
+                {
+                    "method": "pca_R_nc8",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 3.57341271561328,
+                    "estimated_aoa_deg": -2.5,
+                    "angular_error_deg": 6.073412715613273,
+                    "eigenvalues": [
+                        2039783.0,
+                        1341466.125,
+                        689036.9375,
+                        488703.40625
+                    ]
+                },
+                {
+                    "method": "pca_R_nc8",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -7.500279702739315,
+                    "estimated_aoa_deg": 64.5,
+                    "angular_error_deg": 72.0002797027393,
+                    "eigenvalues": [
+                        2175896.75,
+                        1241225.0,
+                        754448.5,
+                        349539.90625
+                    ]
+                },
+                {
+                    "method": "pca_R_nc8",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -16.75,
+                    "angular_error_deg": 3.441330179544991,
+                    "eigenvalues": [
+                        2323419.25,
+                        1138346.75,
+                        703449.375,
+                        397056.71875
+                    ]
+                },
+                {
+                    "method": "pca_R_nc8",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -1.77058333375126,
+                    "estimated_aoa_deg": 38.75,
+                    "angular_error_deg": 40.52058333375126,
+                    "eigenvalues": [
+                        2285197.75,
+                        1629380.0,
+                        370682.46875,
+                        197471.03125
+                    ]
+                },
+                {
+                    "method": "pca_R_nc8",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 4.5257916125721,
+                    "estimated_aoa_deg": -2.0,
+                    "angular_error_deg": 6.525791612572107,
+                    "eigenvalues": [
+                        2048237.75,
+                        1343479.0,
+                        677388.9375,
+                        503213.6875
+                    ]
+                },
+                {
+                    "method": "pca_R_nc8",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -8.522641147933479,
+                    "estimated_aoa_deg": 64.5,
+                    "angular_error_deg": 73.02264114793348,
+                    "eigenvalues": [
+                        2192272.0,
+                        1220056.75,
+                        751711.1875,
+                        352953.1875
+                    ]
+                },
+                {
+                    "method": "pca_R_nc8",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -16.75,
+                    "angular_error_deg": 1.7107023733424285,
+                    "eigenvalues": [
+                        2303576.75,
+                        1150326.875,
+                        689120.5,
+                        424953.875
+                    ]
+                },
+                {
+                    "method": "pca_R_nc8",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -0.9422304594489113,
+                    "estimated_aoa_deg": 39.25,
+                    "angular_error_deg": 40.19223045944892,
+                    "eigenvalues": [
+                        2297886.75,
+                        1610673.375,
+                        365907.875,
+                        199460.03125
+                    ]
+                }
+            ],
+            "summary": {
+                "mean_error_deg": 30.884659303002294,
+                "median_error_deg": 25.25124666981155,
+                "min_error_deg": 1.7107023733424285,
+                "max_error_deg": 73.02264114793348
+            }
+        }
+    ],
+    "kpca": [
+        {
+            "stats": {
+                "n_components": 2,
+                "kernel": "rbf",
+                "gamma": 0.001
+            },
+            "results": [
+                {
+                    "method": "kpca_R_nc2_g0.001",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 6.560262880174191,
+                    "estimated_aoa_deg": -11.0,
+                    "angular_error_deg": 17.560262880174207,
+                    "eigenvalues": [
+                        1541132.0,
+                        1384451.5,
+                        1002681.25,
+                        605445.25
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.001",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -4.7003007457404715,
+                    "estimated_aoa_deg": -10.75,
+                    "angular_error_deg": 6.0496992542595365,
+                    "eigenvalues": [
+                        1532940.75,
+                        1399845.5,
+                        997990.8125,
+                        600551.75
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.001",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": 55.0,
+                    "angular_error_deg": 69.01568201072115,
+                    "eigenvalues": [
+                        1681453.5,
+                        1357493.875,
+                        950351.0,
+                        563185.25
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.001",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -4.384058495888273,
+                    "estimated_aoa_deg": 41.75,
+                    "angular_error_deg": 46.13405849588827,
+                    "eigenvalues": [
+                        1877526.875,
+                        1356439.375,
+                        876837.0625,
+                        377639.34375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.001",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 3.57341271561328,
+                    "estimated_aoa_deg": -10.5,
+                    "angular_error_deg": 14.073412715613273,
+                    "eigenvalues": [
+                        1579047.375,
+                        1403144.0,
+                        950255.8125,
+                        597319.375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.001",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -7.500279702739315,
+                    "estimated_aoa_deg": 48.75,
+                    "angular_error_deg": 56.250279702739306,
+                    "eigenvalues": [
+                        1581583.375,
+                        1365532.5,
+                        989240.5625,
+                        605524.75
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.001",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -11.25,
+                    "angular_error_deg": 2.058669820455009,
+                    "eigenvalues": [
+                        1696047.875,
+                        1244026.125,
+                        977403.3125,
+                        629593.1875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.001",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -1.77058333375126,
+                    "estimated_aoa_deg": -11.0,
+                    "angular_error_deg": 9.229416666248738,
+                    "eigenvalues": [
+                        1518592.375,
+                        1425341.375,
+                        1005464.8125,
+                        575747.1875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.001",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 4.5257916125721,
+                    "estimated_aoa_deg": -11.25,
+                    "angular_error_deg": 15.775791612572107,
+                    "eigenvalues": [
+                        1514252.0,
+                        1413731.875,
+                        1006056.6875,
+                        597481.625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.001",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -8.522641147933479,
+                    "estimated_aoa_deg": -11.0,
+                    "angular_error_deg": 2.4773588520665157,
+                    "eigenvalues": [
+                        1502226.5,
+                        1434282.25,
+                        1006676.3125,
+                        584372.25
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.001",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -10.75,
+                    "angular_error_deg": 4.2892976266575715,
+                    "eigenvalues": [
+                        1745273.125,
+                        1230619.125,
+                        937918.625,
+                        633586.4375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.001",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -0.9422304594489113,
+                    "estimated_aoa_deg": -11.0,
+                    "angular_error_deg": 10.057769540551078,
+                    "eigenvalues": [
+                        1633001.5,
+                        1309105.75,
+                        974515.25,
+                        622576.9375
+                    ]
+                }
+            ],
+            "summary": {
+                "mean_error_deg": 21.080974931495565,
+                "median_error_deg": 12.065591128082175,
+                "min_error_deg": 2.058669820455009,
+                "max_error_deg": 69.01568201072115
+            }
+        },
+        {
+            "stats": {
+                "n_components": 2,
+                "kernel": "rbf",
+                "gamma": 0.01
+            },
+            "results": [
+                {
+                    "method": "kpca_R_nc2_g0.01",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 6.560262880174191,
+                    "estimated_aoa_deg": -10.75,
+                    "angular_error_deg": 17.310262880174207,
+                    "eigenvalues": [
+                        1535886.375,
+                        1384975.125,
+                        1011190.4375,
+                        607967.25
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.01",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -4.7003007457404715,
+                    "estimated_aoa_deg": -10.5,
+                    "angular_error_deg": 5.7996992542595365,
+                    "eigenvalues": [
+                        1524818.25,
+                        1406804.625,
+                        1004294.0,
+                        600379.5625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.01",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": 57.5,
+                    "angular_error_deg": 71.51568201072115,
+                    "eigenvalues": [
+                        1774942.375,
+                        1372341.875,
+                        918426.25,
+                        483798.28125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.01",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -4.384058495888273,
+                    "estimated_aoa_deg": 42.5,
+                    "angular_error_deg": 46.88405849588827,
+                    "eigenvalues": [
+                        2102521.0,
+                        1381331.125,
+                        747965.9375,
+                        227320.625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.01",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 3.57341271561328,
+                    "estimated_aoa_deg": -10.25,
+                    "angular_error_deg": 13.823412715613273,
+                    "eigenvalues": [
+                        1598970.875,
+                        1426491.0,
+                        914399.0,
+                        585663.25
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.01",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -7.500279702739315,
+                    "estimated_aoa_deg": 51.75,
+                    "angular_error_deg": 59.250279702739306,
+                    "eigenvalues": [
+                        1602455.75,
+                        1375220.5,
+                        974205.0625,
+                        595511.5
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.01",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -11.25,
+                    "angular_error_deg": 2.058669820455009,
+                    "eigenvalues": [
+                        1773530.625,
+                        1198267.75,
+                        953005.4375,
+                        628130.9375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.01",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -1.77058333375126,
+                    "estimated_aoa_deg": 44.5,
+                    "angular_error_deg": 46.27058333375126,
+                    "eigenvalues": [
+                        1564632.75,
+                        1390689.5,
+                        1010502.875,
+                        561524.625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.01",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 4.5257916125721,
+                    "estimated_aoa_deg": -11.0,
+                    "angular_error_deg": 15.525791612572107,
+                    "eigenvalues": [
+                        1501361.875,
+                        1423627.25,
+                        1016025.375,
+                        596166.125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.01",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -8.522641147933479,
+                    "estimated_aoa_deg": 44.25,
+                    "angular_error_deg": 52.772641147933484,
+                    "eigenvalues": [
+                        1526078.0,
+                        1414242.625,
+                        1015149.3125,
+                        575806.3125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.01",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -11.0,
+                    "angular_error_deg": 4.0392976266575715,
+                    "eigenvalues": [
+                        1848509.75,
+                        1195683.125,
+                        880181.1875,
+                        621588.6875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.01",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -0.9422304594489113,
+                    "estimated_aoa_deg": -10.75,
+                    "angular_error_deg": 9.807769540551078,
+                    "eigenvalues": [
+                        1675096.125,
+                        1285116.75,
+                        955036.625,
+                        627349.6875
+                    ]
+                }
+            ],
+            "summary": {
+                "mean_error_deg": 28.75484567844302,
+                "median_error_deg": 16.418027246373157,
+                "min_error_deg": 2.058669820455009,
+                "max_error_deg": 71.51568201072115
+            }
+        },
+        {
+            "stats": {
+                "n_components": 2,
+                "kernel": "rbf",
+                "gamma": 0.03125
+            },
+            "results": [
+                {
+                    "method": "kpca_R_nc2_g0.03125",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 6.560262880174191,
+                    "estimated_aoa_deg": -9.25,
+                    "angular_error_deg": 15.810262880174179,
+                    "eigenvalues": [
+                        1500317.5,
+                        1380271.375,
+                        1052484.875,
+                        615914.5
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.03125",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -4.7003007457404715,
+                    "estimated_aoa_deg": -8.5,
+                    "angular_error_deg": 3.7996992542595365,
+                    "eigenvalues": [
+                        1491707.125,
+                        1393965.125,
+                        1051632.625,
+                        607758.9375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.03125",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": 55.25,
+                    "angular_error_deg": 69.26568201072115,
+                    "eigenvalues": [
+                        1888982.375,
+                        1313563.375,
+                        866458.75,
+                        466426.71875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.03125",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -4.384058495888273,
+                    "estimated_aoa_deg": 41.0,
+                    "angular_error_deg": 45.38405849588827,
+                    "eigenvalues": [
+                        2166630.5,
+                        1382104.0,
+                        634335.875,
+                        259803.765625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.03125",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 3.57341271561328,
+                    "estimated_aoa_deg": -9.5,
+                    "angular_error_deg": 13.073412715613273,
+                    "eigenvalues": [
+                        1609697.125,
+                        1421654.75,
+                        906366.9375,
+                        584653.875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.03125",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -7.500279702739315,
+                    "estimated_aoa_deg": 52.5,
+                    "angular_error_deg": 60.000279702739306,
+                    "eigenvalues": [
+                        1593594.125,
+                        1384957.0,
+                        976541.375,
+                        594694.375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.03125",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -12.5,
+                    "angular_error_deg": 0.8086698204550089,
+                    "eigenvalues": [
+                        1814017.125,
+                        1197515.625,
+                        933584.0,
+                        608578.125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.03125",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -1.77058333375126,
+                    "estimated_aoa_deg": 46.5,
+                    "angular_error_deg": 48.27058333375126,
+                    "eigenvalues": [
+                        1576282.75,
+                        1347723.5,
+                        1053740.875,
+                        555375.9375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.03125",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 4.5257916125721,
+                    "estimated_aoa_deg": -8.75,
+                    "angular_error_deg": 13.275791612572107,
+                    "eigenvalues": [
+                        1478018.25,
+                        1407219.375,
+                        1059756.875,
+                        600744.1875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.03125",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -8.522641147933479,
+                    "estimated_aoa_deg": 46.5,
+                    "angular_error_deg": 55.022641147933484,
+                    "eigenvalues": [
+                        1532085.0,
+                        1371277.875,
+                        1061117.125,
+                        573975.0625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.03125",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -12.75,
+                    "angular_error_deg": 2.2892976266575715,
+                    "eigenvalues": [
+                        1934154.625,
+                        1190783.375,
+                        846075.625,
+                        563084.375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.03125",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -0.9422304594489113,
+                    "estimated_aoa_deg": -10.5,
+                    "angular_error_deg": 9.557769540551078,
+                    "eigenvalues": [
+                        1677801.375,
+                        1281465.75,
+                        955343.5625,
+                        629663.9375
+                    ]
+                }
+            ],
+            "summary": {
+                "mean_error_deg": 28.046512345109686,
+                "median_error_deg": 14.543027246373143,
+                "min_error_deg": 0.8086698204550089,
+                "max_error_deg": 69.26568201072115
+            }
+        },
+        {
+            "stats": {
+                "n_components": 2,
+                "kernel": "rbf",
+                "gamma": 0.1
+            },
+            "results": [
+                {
+                    "method": "kpca_R_nc2_g0.1",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 6.560262880174191,
+                    "estimated_aoa_deg": 49.75,
+                    "angular_error_deg": 43.18973711982579,
+                    "eigenvalues": [
+                        1475728.25,
+                        1368215.75,
+                        1100106.75,
+                        605063.25
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.1",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -4.7003007457404715,
+                    "estimated_aoa_deg": -2.25,
+                    "angular_error_deg": 2.4503007457404635,
+                    "eigenvalues": [
+                        1491053.75,
+                        1353589.75,
+                        1114581.0,
+                        588187.0625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.1",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": -17.25,
+                    "angular_error_deg": 3.2343179892788214,
+                    "eigenvalues": [
+                        2125338.75,
+                        1197288.25,
+                        785372.4375,
+                        439355.40625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.1",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -4.384058495888273,
+                    "estimated_aoa_deg": 39.0,
+                    "angular_error_deg": 43.38405849588827,
+                    "eigenvalues": [
+                        2283427.5,
+                        1518582.5,
+                        410186.59375,
+                        237543.375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.1",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 3.57341271561328,
+                    "estimated_aoa_deg": -6.25,
+                    "angular_error_deg": 9.823412715613273,
+                    "eigenvalues": [
+                        1698026.75,
+                        1395631.5,
+                        864482.25,
+                        571369.8125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.1",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -7.500279702739315,
+                    "estimated_aoa_deg": 53.75,
+                    "angular_error_deg": 61.250279702739306,
+                    "eigenvalues": [
+                        1579337.0,
+                        1407411.25,
+                        971798.25,
+                        588847.875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.1",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -15.0,
+                    "angular_error_deg": 1.691330179544991,
+                    "eigenvalues": [
+                        1937729.625,
+                        1229537.125,
+                        846595.125,
+                        542885.9375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.1",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -1.77058333375126,
+                    "estimated_aoa_deg": 50.5,
+                    "angular_error_deg": 52.27058333375126,
+                    "eigenvalues": [
+                        1631103.125,
+                        1309981.0,
+                        1076700.125,
+                        502091.5625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.1",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 4.5257916125721,
+                    "estimated_aoa_deg": 51.75,
+                    "angular_error_deg": 47.22420838742789,
+                    "eigenvalues": [
+                        1493472.125,
+                        1376248.75,
+                        1097305.25,
+                        574471.4375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.1",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -8.522641147933479,
+                    "estimated_aoa_deg": 51.0,
+                    "angular_error_deg": 59.522641147933484,
+                    "eigenvalues": [
+                        1572489.625,
+                        1335012.125,
+                        1093615.25,
+                        527850.75
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.1",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -16.5,
+                    "angular_error_deg": 1.4607023733424285,
+                    "eigenvalues": [
+                        2186382.0,
+                        1275652.25,
+                        665053.4375,
+                        400462.03125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc2_g0.1",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -0.9422304594489113,
+                    "estimated_aoa_deg": -10.25,
+                    "angular_error_deg": 9.307769540551078,
+                    "eigenvalues": [
+                        1678051.5,
+                        1273926.375,
+                        959164.25,
+                        635512.0625
+                    ]
+                }
+            ],
+            "summary": {
+                "mean_error_deg": 27.900778477636422,
+                "median_error_deg": 26.506574917719533,
+                "min_error_deg": 1.4607023733424285,
+                "max_error_deg": 61.250279702739306
+            }
+        },
+        {
+            "stats": {
+                "n_components": 4,
+                "kernel": "rbf",
+                "gamma": 0.001
+            },
+            "results": [
+                {
+                    "method": "kpca_R_nc4_g0.001",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 6.560262880174191,
+                    "estimated_aoa_deg": -11.0,
+                    "angular_error_deg": 17.560262880174207,
+                    "eigenvalues": [
+                        1541456.25,
+                        1384650.375,
+                        1002810.8125,
+                        605538.375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.001",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -4.7003007457404715,
+                    "estimated_aoa_deg": -10.75,
+                    "angular_error_deg": 6.0496992542595365,
+                    "eigenvalues": [
+                        1532122.5,
+                        1402228.5,
+                        997670.125,
+                        599872.0625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.001",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": 55.25,
+                    "angular_error_deg": 69.26568201072115,
+                    "eigenvalues": [
+                        1687412.25,
+                        1351541.375,
+                        952349.3125,
+                        562535.0
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.001",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -4.384058495888273,
+                    "estimated_aoa_deg": 41.25,
+                    "angular_error_deg": 45.63405849588827,
+                    "eigenvalues": [
+                        1811128.0,
+                        1357273.0,
+                        918247.6875,
+                        408072.75
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.001",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 3.57341271561328,
+                    "estimated_aoa_deg": -10.5,
+                    "angular_error_deg": 14.073412715613273,
+                    "eigenvalues": [
+                        1565333.875,
+                        1425683.75,
+                        947822.25,
+                        589505.8125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.001",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -7.500279702739315,
+                    "estimated_aoa_deg": 48.75,
+                    "angular_error_deg": 56.250279702739306,
+                    "eigenvalues": [
+                        1586760.875,
+                        1358416.875,
+                        991088.25,
+                        607041.875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.001",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -11.5,
+                    "angular_error_deg": 1.808669820455009,
+                    "eigenvalues": [
+                        1676858.375,
+                        1267171.375,
+                        976804.125,
+                        624330.3125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.001",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -1.77058333375126,
+                    "estimated_aoa_deg": -12.0,
+                    "angular_error_deg": 10.229416666248738,
+                    "eigenvalues": [
+                        1613624.75,
+                        1506217.875,
+                        874944.875,
+                        529265.25
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.001",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 4.5257916125721,
+                    "estimated_aoa_deg": -11.75,
+                    "angular_error_deg": 16.275791612572107,
+                    "eigenvalues": [
+                        1689229.625,
+                        1426280.875,
+                        868074.625,
+                        563231.5625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.001",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -8.522641147933479,
+                    "estimated_aoa_deg": 60.0,
+                    "angular_error_deg": 68.52264114793348,
+                    "eigenvalues": [
+                        1851917.75,
+                        1258095.75,
+                        889781.6875,
+                        515653.5
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.001",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -9.5,
+                    "angular_error_deg": 5.5392976266575715,
+                    "eigenvalues": [
+                        1960661.875,
+                        1201491.75,
+                        789657.5625,
+                        623524.0625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.001",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -0.9422304594489113,
+                    "estimated_aoa_deg": 39.5,
+                    "angular_error_deg": 40.44223045944892,
+                    "eigenvalues": [
+                        1732112.625,
+                        1465577.0,
+                        819277.0625,
+                        485053.625
+                    ]
+                }
+            ],
+            "summary": {
+                "mean_error_deg": 29.304286866059297,
+                "median_error_deg": 16.918027246373157,
+                "min_error_deg": 1.808669820455009,
+                "max_error_deg": 69.26568201072115
+            }
+        },
+        {
+            "stats": {
+                "n_components": 4,
+                "kernel": "rbf",
+                "gamma": 0.01
+            },
+            "results": [
+                {
+                    "method": "kpca_R_nc4_g0.01",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 6.560262880174191,
+                    "estimated_aoa_deg": -10.75,
+                    "angular_error_deg": 17.310262880174207,
+                    "eigenvalues": [
+                        1540559.375,
+                        1380955.5,
+                        1015644.8125,
+                        610833.25
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.01",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -4.7003007457404715,
+                    "estimated_aoa_deg": -10.25,
+                    "angular_error_deg": 5.5496992542595365,
+                    "eigenvalues": [
+                        1527921.5,
+                        1403989.625,
+                        1009478.25,
+                        603095.1875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.01",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": 57.5,
+                    "angular_error_deg": 71.51568201072115,
+                    "eigenvalues": [
+                        1787612.125,
+                        1368912.75,
+                        917621.9375,
+                        480541.0
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.01",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -4.384058495888273,
+                    "estimated_aoa_deg": 41.75,
+                    "angular_error_deg": 46.13405849588827,
+                    "eigenvalues": [
+                        2021113.5,
+                        1375776.875,
+                        798027.25,
+                        276354.375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.01",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 3.57341271561328,
+                    "estimated_aoa_deg": -10.0,
+                    "angular_error_deg": 13.573412715613273,
+                    "eigenvalues": [
+                        1583865.125,
+                        1443250.75,
+                        922973.4375,
+                        582962.375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.01",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -7.500279702739315,
+                    "estimated_aoa_deg": 52.0,
+                    "angular_error_deg": 59.500279702739306,
+                    "eigenvalues": [
+                        1615143.75,
+                        1367878.75,
+                        975560.1875,
+                        595815.6875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.01",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -11.5,
+                    "angular_error_deg": 1.808669820455009,
+                    "eigenvalues": [
+                        1747253.25,
+                        1219889.125,
+                        963070.875,
+                        628212.625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.01",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -1.77058333375126,
+                    "estimated_aoa_deg": 37.0,
+                    "angular_error_deg": 38.77058333375126,
+                    "eigenvalues": [
+                        1724403.875,
+                        1493994.5,
+                        814570.8125,
+                        488196.46875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.01",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 4.5257916125721,
+                    "estimated_aoa_deg": -11.75,
+                    "angular_error_deg": 16.275791612572107,
+                    "eigenvalues": [
+                        1738790.5,
+                        1464761.0,
+                        836373.3125,
+                        508298.65625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.01",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -8.522641147933479,
+                    "estimated_aoa_deg": 62.5,
+                    "angular_error_deg": 71.02264114793348,
+                    "eigenvalues": [
+                        2127181.75,
+                        1167774.875,
+                        790943.6875,
+                        419700.21875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.01",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": 10.5,
+                    "angular_error_deg": 25.53929762665757,
+                    "eigenvalues": [
+                        2158743.0,
+                        1251230.875,
+                        705116.0,
+                        466004.65625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.01",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -0.9422304594489113,
+                    "estimated_aoa_deg": 39.25,
+                    "angular_error_deg": 40.19223045944892,
+                    "eigenvalues": [
+                        1910031.75,
+                        1458392.75,
+                        692469.5625,
+                        414141.46875
+                    ]
+                }
+            ],
+            "summary": {
+                "mean_error_deg": 33.93271742168451,
+                "median_error_deg": 32.15494048020442,
+                "min_error_deg": 1.808669820455009,
+                "max_error_deg": 71.51568201072115
+            }
+        },
+        {
+            "stats": {
+                "n_components": 4,
+                "kernel": "rbf",
+                "gamma": 0.03125
+            },
+            "results": [
+                {
+                    "method": "kpca_R_nc4_g0.03125",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 6.560262880174191,
+                    "estimated_aoa_deg": -8.75,
+                    "angular_error_deg": 15.310262880174179,
+                    "eigenvalues": [
+                        1523381.875,
+                        1353721.875,
+                        1067013.625,
+                        628077.375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.03125",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -4.7003007457404715,
+                    "estimated_aoa_deg": -7.75,
+                    "angular_error_deg": 3.0496992542595365,
+                    "eigenvalues": [
+                        1514804.875,
+                        1356755.125,
+                        1072787.25,
+                        624545.875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.03125",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": 54.5,
+                    "angular_error_deg": 68.51568201072115,
+                    "eigenvalues": [
+                        1906725.375,
+                        1329678.625,
+                        846435.8125,
+                        460035.84375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.03125",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -4.384058495888273,
+                    "estimated_aoa_deg": 40.75,
+                    "angular_error_deg": 45.13405849588827,
+                    "eigenvalues": [
+                        2140319.5,
+                        1396086.375,
+                        633309.0625,
+                        288962.03125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.03125",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 3.57341271561328,
+                    "estimated_aoa_deg": -7.5,
+                    "angular_error_deg": 11.073412715613273,
+                    "eigenvalues": [
+                        1637900.0,
+                        1368337.0,
+                        922127.125,
+                        616799.6875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.03125",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -7.500279702739315,
+                    "estimated_aoa_deg": 53.0,
+                    "angular_error_deg": 60.500279702739306,
+                    "eigenvalues": [
+                        1621411.0,
+                        1387745.125,
+                        969929.875,
+                        588765.5
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.03125",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -11.0,
+                    "angular_error_deg": 2.308669820455009,
+                    "eigenvalues": [
+                        1789990.625,
+                        1190159.0,
+                        958700.1875,
+                        633942.9375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.03125",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -1.77058333375126,
+                    "estimated_aoa_deg": 37.75,
+                    "angular_error_deg": 39.52058333375126,
+                    "eigenvalues": [
+                        1757257.25,
+                        1449430.5,
+                        833177.5625,
+                        478761.53125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.03125",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 4.5257916125721,
+                    "estimated_aoa_deg": -8.75,
+                    "angular_error_deg": 13.275791612572107,
+                    "eigenvalues": [
+                        1704740.5,
+                        1421495.625,
+                        857815.9375,
+                        554923.3125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.03125",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -8.522641147933479,
+                    "estimated_aoa_deg": 63.75,
+                    "angular_error_deg": 72.27264114793348,
+                    "eigenvalues": [
+                        2196945.75,
+                        1175524.75,
+                        752263.25,
+                        373261.25
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.03125",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -11.25,
+                    "angular_error_deg": 3.7892976266575715,
+                    "eigenvalues": [
+                        2186276.0,
+                        1163063.25,
+                        671118.9375,
+                        540163.375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.03125",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -0.9422304594489113,
+                    "estimated_aoa_deg": 39.0,
+                    "angular_error_deg": 39.94223045944892,
+                    "eigenvalues": [
+                        2056696.625,
+                        1520900.875,
+                        531718.0625,
+                        339863.34375
+                    ]
+                }
+            ],
+            "summary": {
+                "mean_error_deg": 31.224384088351172,
+                "median_error_deg": 27.41542310696272,
+                "min_error_deg": 2.308669820455009,
+                "max_error_deg": 72.27264114793348
+            }
+        },
+        {
+            "stats": {
+                "n_components": 4,
+                "kernel": "rbf",
+                "gamma": 0.1
+            },
+            "results": [
+                {
+                    "method": "kpca_R_nc4_g0.1",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 6.560262880174191,
+                    "estimated_aoa_deg": 59.5,
+                    "angular_error_deg": 52.93973711982579,
+                    "eigenvalues": [
+                        1563513.375,
+                        1358337.125,
+                        1070543.875,
+                        591719.1875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.1",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -4.7003007457404715,
+                    "estimated_aoa_deg": -1.25,
+                    "angular_error_deg": 3.4503007457404635,
+                    "eigenvalues": [
+                        1582835.5,
+                        1323088.375,
+                        1090495.5,
+                        585330.1875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.1",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": -17.25,
+                    "angular_error_deg": 3.2343179892788214,
+                    "eigenvalues": [
+                        2119182.5,
+                        1225810.375,
+                        762163.0625,
+                        435847.34375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.1",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -4.384058495888273,
+                    "estimated_aoa_deg": 39.25,
+                    "angular_error_deg": 43.63405849588827,
+                    "eigenvalues": [
+                        2277707.75,
+                        1511592.375,
+                        427609.25,
+                        241222.375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.1",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 3.57341271561328,
+                    "estimated_aoa_deg": -4.5,
+                    "angular_error_deg": 8.073412715613273,
+                    "eigenvalues": [
+                        1875618.625,
+                        1312941.5,
+                        759518.5625,
+                        601057.1875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.1",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -7.500279702739315,
+                    "estimated_aoa_deg": 57.5,
+                    "angular_error_deg": 65.0002797027393,
+                    "eigenvalues": [
+                        1600168.75,
+                        1432118.75,
+                        974350.3125,
+                        568233.875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.1",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -12.5,
+                    "angular_error_deg": 0.8086698204550089,
+                    "eigenvalues": [
+                        1963452.5,
+                        1129943.25,
+                        893338.3125,
+                        581890.375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.1",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -1.77058333375126,
+                    "estimated_aoa_deg": 39.25,
+                    "angular_error_deg": 41.02058333375126,
+                    "eigenvalues": [
+                        1966730.75,
+                        1445180.5,
+                        684160.1875,
+                        404500.0
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.1",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 4.5257916125721,
+                    "estimated_aoa_deg": -4.5,
+                    "angular_error_deg": 9.025791612572107,
+                    "eigenvalues": [
+                        1854216.25,
+                        1358931.875,
+                        766534.875,
+                        560277.6875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.1",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -8.522641147933479,
+                    "estimated_aoa_deg": 65.0,
+                    "angular_error_deg": 73.52264114793348,
+                    "eigenvalues": [
+                        2227297.5,
+                        1224094.625,
+                        717538.375,
+                        322130.65625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.1",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -15.0,
+                    "angular_error_deg": 0.03929762665757153,
+                    "eigenvalues": [
+                        2262081.25,
+                        1062441.375,
+                        766760.5625,
+                        461721.59375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc4_g0.1",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -0.9422304594489113,
+                    "estimated_aoa_deg": 39.0,
+                    "angular_error_deg": 39.94223045944892,
+                    "eigenvalues": [
+                        2270734.0,
+                        1625585.125,
+                        354860.4375,
+                        193729.546875
+                    ]
+                }
+            ],
+            "summary": {
+                "mean_error_deg": 28.390943397492023,
+                "median_error_deg": 24.484011036010514,
+                "min_error_deg": 0.03929762665757153,
+                "max_error_deg": 73.52264114793348
+            }
+        },
+        {
+            "stats": {
+                "n_components": 8,
+                "kernel": "rbf",
+                "gamma": 0.001
+            },
+            "results": [
+                {
+                    "method": "kpca_R_nc8_g0.001",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 6.560262880174191,
+                    "estimated_aoa_deg": -5.75,
+                    "angular_error_deg": 12.310262880174179,
+                    "eigenvalues": [
+                        1835019.75,
+                        1366799.75,
+                        746055.3125,
+                        602147.8125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.001",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -4.7003007457404715,
+                    "estimated_aoa_deg": -13.5,
+                    "angular_error_deg": 8.799699254259536,
+                    "eigenvalues": [
+                        1627357.625,
+                        1403625.5,
+                        920864.9375,
+                        585835.9375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.001",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": -16.0,
+                    "angular_error_deg": 1.9843179892788214,
+                    "eigenvalues": [
+                        1897306.0,
+                        1496206.875,
+                        685466.4375,
+                        459180.9375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.001",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -4.384058495888273,
+                    "estimated_aoa_deg": 42.0,
+                    "angular_error_deg": 46.38405849588827,
+                    "eigenvalues": [
+                        1788948.375,
+                        1511954.375,
+                        761960.125,
+                        447476.28125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.001",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 3.57341271561328,
+                    "estimated_aoa_deg": -2.75,
+                    "angular_error_deg": 6.323412715613273,
+                    "eigenvalues": [
+                        1836920.25,
+                        1240307.125,
+                        818324.4375,
+                        662644.6875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.001",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -7.500279702739315,
+                    "estimated_aoa_deg": 52.0,
+                    "angular_error_deg": 59.500279702739306,
+                    "eigenvalues": [
+                        1704617.625,
+                        1261165.5,
+                        1037076.8125,
+                        510618.46875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.001",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -15.25,
+                    "angular_error_deg": 1.941330179544991,
+                    "eigenvalues": [
+                        1963490.125,
+                        1202464.125,
+                        846333.4375,
+                        539589.25
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.001",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -1.77058333375126,
+                    "estimated_aoa_deg": 39.75,
+                    "angular_error_deg": 41.52058333375126,
+                    "eigenvalues": [
+                        1579978.25,
+                        1394629.875,
+                        1005393.3125,
+                        540265.0
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.001",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 4.5257916125721,
+                    "estimated_aoa_deg": -8.5,
+                    "angular_error_deg": 13.025791612572107,
+                    "eigenvalues": [
+                        1578814.75,
+                        1385199.0,
+                        959104.5,
+                        620489.1875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.001",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -8.522641147933479,
+                    "estimated_aoa_deg": 61.75,
+                    "angular_error_deg": 70.27264114793348,
+                    "eigenvalues": [
+                        1965332.375,
+                        1216893.375,
+                        854886.1875,
+                        474673.96875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.001",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -14.0,
+                    "angular_error_deg": 1.0392976266575715,
+                    "eigenvalues": [
+                        1961152.0,
+                        1141597.25,
+                        900376.1875,
+                        563499.4375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.001",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -0.9422304594489113,
+                    "estimated_aoa_deg": 41.5,
+                    "angular_error_deg": 42.44223045944892,
+                    "eigenvalues": [
+                        1946772.25,
+                        1551718.875,
+                        621029.75,
+                        373829.59375
+                    ]
+                }
+            ],
+            "summary": {
+                "mean_error_deg": 25.461992116488474,
+                "median_error_deg": 12.668027246373143,
+                "min_error_deg": 1.0392976266575715,
+                "max_error_deg": 70.27264114793348
+            }
+        },
+        {
+            "stats": {
+                "n_components": 8,
+                "kernel": "rbf",
+                "gamma": 0.01
+            },
+            "results": [
+                {
+                    "method": "kpca_R_nc8_g0.01",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 6.560262880174191,
+                    "estimated_aoa_deg": -4.5,
+                    "angular_error_deg": 11.060262880174179,
+                    "eigenvalues": [
+                        2034796.75,
+                        1413805.0,
+                        656705.1875,
+                        453395.59375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.01",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -4.7003007457404715,
+                    "estimated_aoa_deg": -14.25,
+                    "angular_error_deg": 9.549699254259536,
+                    "eigenvalues": [
+                        1667878.125,
+                        1412267.25,
+                        898406.0,
+                        580850.75
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.01",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": -17.0,
+                    "angular_error_deg": 2.9843179892788214,
+                    "eigenvalues": [
+                        2077895.75,
+                        1510679.625,
+                        573638.8125,
+                        382202.625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.01",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -4.384058495888273,
+                    "estimated_aoa_deg": 41.75,
+                    "angular_error_deg": 46.13405849588827,
+                    "eigenvalues": [
+                        1986498.25,
+                        1541371.875,
+                        626945.5625,
+                        338126.15625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.01",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 3.57341271561328,
+                    "estimated_aoa_deg": -0.75,
+                    "angular_error_deg": 4.323412715613273,
+                    "eigenvalues": [
+                        2062544.125,
+                        1257397.75,
+                        688717.1875,
+                        555893.3125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.01",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -7.500279702739315,
+                    "estimated_aoa_deg": 55.0,
+                    "angular_error_deg": 62.500279702739306,
+                    "eigenvalues": [
+                        1890559.125,
+                        1224288.75,
+                        982858.6875,
+                        416060.90625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.01",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -16.25,
+                    "angular_error_deg": 2.941330179544991,
+                    "eigenvalues": [
+                        2173647.25,
+                        1129135.75,
+                        781902.0625,
+                        472356.78125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.01",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -1.77058333375126,
+                    "estimated_aoa_deg": 39.75,
+                    "angular_error_deg": 41.52058333375126,
+                    "eigenvalues": [
+                        1684124.75,
+                        1366033.5,
+                        980192.75,
+                        483718.3125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.01",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 4.5257916125721,
+                    "estimated_aoa_deg": -7.75,
+                    "angular_error_deg": 12.275791612572107,
+                    "eigenvalues": [
+                        1621098.75,
+                        1405111.125,
+                        912216.6875,
+                        604735.4375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.01",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -8.522641147933479,
+                    "estimated_aoa_deg": 64.0,
+                    "angular_error_deg": 72.52264114793348,
+                    "eigenvalues": [
+                        2289812.25,
+                        1177175.5,
+                        695632.9375,
+                        336755.71875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.01",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -14.25,
+                    "angular_error_deg": 0.7892976266575715,
+                    "eigenvalues": [
+                        2164289.25,
+                        1095949.5,
+                        829103.0625,
+                        487427.9375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.01",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -0.9422304594489113,
+                    "estimated_aoa_deg": 41.25,
+                    "angular_error_deg": 42.19223045944892,
+                    "eigenvalues": [
+                        2204208.75,
+                        1588564.5,
+                        468672.46875,
+                        209646.53125
+                    ]
+                }
+            ],
+            "summary": {
+                "mean_error_deg": 25.732825449821807,
+                "median_error_deg": 11.668027246373143,
+                "min_error_deg": 0.7892976266575715,
+                "max_error_deg": 72.52264114793348
+            }
+        },
+        {
+            "stats": {
+                "n_components": 8,
+                "kernel": "rbf",
+                "gamma": 0.03125
+            },
+            "results": [
+                {
+                    "method": "kpca_R_nc8_g0.03125",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 6.560262880174191,
+                    "estimated_aoa_deg": -4.5,
+                    "angular_error_deg": 11.060262880174179,
+                    "eigenvalues": [
+                        2059347.875,
+                        1413533.75,
+                        648514.875,
+                        440736.3125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.03125",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -4.7003007457404715,
+                    "estimated_aoa_deg": -13.5,
+                    "angular_error_deg": 8.799699254259536,
+                    "eigenvalues": [
+                        1614626.125,
+                        1433888.875,
+                        945974.3125,
+                        604475.625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.03125",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": -17.25,
+                    "angular_error_deg": 3.2343179892788214,
+                    "eigenvalues": [
+                        2116198.25,
+                        1336835.875,
+                        667150.0625,
+                        431850.21875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.03125",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -4.384058495888273,
+                    "estimated_aoa_deg": 40.0,
+                    "angular_error_deg": 44.38405849588827,
+                    "eigenvalues": [
+                        2129766.75,
+                        1571075.75,
+                        508688.4375,
+                        267407.15625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.03125",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 3.57341271561328,
+                    "estimated_aoa_deg": -1.0,
+                    "angular_error_deg": 4.573412715613273,
+                    "eigenvalues": [
+                        2061679.0,
+                        1284731.25,
+                        666751.4375,
+                        543644.3125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.03125",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -7.500279702739315,
+                    "estimated_aoa_deg": 59.75,
+                    "angular_error_deg": 67.2502797027393,
+                    "eigenvalues": [
+                        2007617.625,
+                        1213968.375,
+                        895314.6875,
+                        412726.90625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.03125",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -16.25,
+                    "angular_error_deg": 2.941330179544991,
+                    "eigenvalues": [
+                        2205312.25,
+                        1124491.0,
+                        761982.75,
+                        460064.78125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.03125",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -1.77058333375126,
+                    "estimated_aoa_deg": 39.5,
+                    "angular_error_deg": 41.27058333375126,
+                    "eigenvalues": [
+                        1797959.25,
+                        1375566.0,
+                        876519.25,
+                        458104.15625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.03125",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 4.5257916125721,
+                    "estimated_aoa_deg": -6.5,
+                    "angular_error_deg": 11.025791612572107,
+                    "eigenvalues": [
+                        1675351.75,
+                        1386577.25,
+                        874036.3125,
+                        600899.4375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.03125",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -8.522641147933479,
+                    "estimated_aoa_deg": 64.25,
+                    "angular_error_deg": 72.77264114793348,
+                    "eigenvalues": [
+                        2297612.25,
+                        1181800.5,
+                        688851.25,
+                        323898.84375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.03125",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -14.5,
+                    "angular_error_deg": 0.5392976266575715,
+                    "eigenvalues": [
+                        2190957.5,
+                        1067463.125,
+                        810879.5,
+                        499606.625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.03125",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -0.9422304594489113,
+                    "estimated_aoa_deg": 40.5,
+                    "angular_error_deg": 41.44223045944892,
+                    "eigenvalues": [
+                        2270475.5,
+                        1598600.75,
+                        415921.5,
+                        174445.40625
+                    ]
+                }
+            ],
+            "summary": {
+                "mean_error_deg": 25.774492116488474,
+                "median_error_deg": 11.043027246373143,
+                "min_error_deg": 0.5392976266575715,
+                "max_error_deg": 72.77264114793348
+            }
+        },
+        {
+            "stats": {
+                "n_components": 8,
+                "kernel": "rbf",
+                "gamma": 0.1
+            },
+            "results": [
+                {
+                    "method": "kpca_R_nc8_g0.1",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 6.560262880174191,
+                    "estimated_aoa_deg": -4.0,
+                    "angular_error_deg": 10.560262880174179,
+                    "eigenvalues": [
+                        2066099.25,
+                        1402829.5,
+                        633999.1875,
+                        460669.78125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.1",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -4.7003007457404715,
+                    "estimated_aoa_deg": 60.75,
+                    "angular_error_deg": 65.45030074574049,
+                    "eigenvalues": [
+                        1818554.625,
+                        1328903.0,
+                        911254.9375,
+                        565514.4375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.1",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -14.015682010721166,
+                    "estimated_aoa_deg": -17.25,
+                    "angular_error_deg": 3.2343179892788214,
+                    "eigenvalues": [
+                        2258441.25,
+                        1180563.875,
+                        703638.5,
+                        408451.5
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.1",
+                    "scenario_key": "standing_center",
+                    "scenario_label": "Standing Center",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -4.384058495888273,
+                    "estimated_aoa_deg": 38.75,
+                    "angular_error_deg": 43.13405849588827,
+                    "eigenvalues": [
+                        2286855.25,
+                        1589461.25,
+                        386144.9375,
+                        208714.53125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.1",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 3.57341271561328,
+                    "estimated_aoa_deg": -2.0,
+                    "angular_error_deg": 5.573412715613273,
+                    "eigenvalues": [
+                        2041228.0,
+                        1324624.875,
+                        674514.5,
+                        511801.5625
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.1",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -7.500279702739315,
+                    "estimated_aoa_deg": 63.75,
+                    "angular_error_deg": 71.2502797027393,
+                    "eigenvalues": [
+                        2147221.0,
+                        1235934.875,
+                        781969.625,
+                        370925.71875
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.1",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -13.308669820454998,
+                    "estimated_aoa_deg": -16.5,
+                    "angular_error_deg": 3.191330179544991,
+                    "eigenvalues": [
+                        2261642.75,
+                        1128848.875,
+                        724430.125,
+                        432862.9375
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.1",
+                    "scenario_key": "meanders_nw_se",
+                    "scenario_label": "Meanders NW-SE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -1.77058333375126,
+                    "estimated_aoa_deg": 39.25,
+                    "angular_error_deg": 41.02058333375126,
+                    "eigenvalues": [
+                        2097330.5,
+                        1499229.75,
+                        549669.0625,
+                        345621.5
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.1",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 0,
+                    "array_name": "espargosnorth",
+                    "true_aoa_deg": 4.5257916125721,
+                    "estimated_aoa_deg": -3.5,
+                    "angular_error_deg": 8.025791612572107,
+                    "eigenvalues": [
+                        1892485.375,
+                        1343719.625,
+                        735484.8125,
+                        572131.125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.1",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 1,
+                    "array_name": "espargoswest",
+                    "true_aoa_deg": -8.522641147933479,
+                    "estimated_aoa_deg": 64.5,
+                    "angular_error_deg": 73.02264114793348,
+                    "eigenvalues": [
+                        2235731.5,
+                        1206001.125,
+                        715290.8125,
+                        332699.8125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.1",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 2,
+                    "array_name": "espargossouth",
+                    "true_aoa_deg": -15.039297626657573,
+                    "estimated_aoa_deg": -16.0,
+                    "angular_error_deg": 0.9607023733424285,
+                    "eigenvalues": [
+                        2248076.5,
+                        1105382.625,
+                        748841.25,
+                        458956.78125
+                    ]
+                },
+                {
+                    "method": "kpca_R_nc8_g0.1",
+                    "scenario_key": "meanders_sw_ne",
+                    "scenario_label": "Meanders SW-NE",
+                    "array_index": 3,
+                    "array_name": "espargoseast",
+                    "true_aoa_deg": -0.9422304594489113,
+                    "estimated_aoa_deg": 39.75,
+                    "angular_error_deg": 40.69223045944892,
+                    "eigenvalues": [
+                        2297027.25,
+                        1602755.0,
+                        373734.53125,
+                        182791.8125
+                    ]
+                }
+            ],
+            "summary": {
+                "mean_error_deg": 30.509659303002294,
+                "median_error_deg": 25.62624666981155,
+                "min_error_deg": 0.9607023733424285,
+                "max_error_deg": 73.02264114793348
+            }
+        }
+    ],
+    "best_pca": {
+        "stats": {
+            "n_components": 4,
+            "explained_variance": 0.9984325170516968
+        },
+        "results": [
+            {
+                "method": "pca_R_nc4",
+                "scenario_key": "standing_center",
+                "scenario_label": "Standing Center",
+                "array_index": 0,
+                "array_name": "espargosnorth",
+                "true_aoa_deg": 6.560262880174191,
+                "estimated_aoa_deg": -3.75,
+                "angular_error_deg": 10.310262880174179,
+                "eigenvalues": [
+                    2058099.875,
+                    1394177.75,
+                    635451.4375,
+                    471035.625
+                ]
+            },
+            {
+                "method": "pca_R_nc4",
+                "scenario_key": "standing_center",
+                "scenario_label": "Standing Center",
+                "array_index": 1,
+                "array_name": "espargoswest",
+                "true_aoa_deg": -4.7003007457404715,
+                "estimated_aoa_deg": 65.0,
+                "angular_error_deg": 69.70030074574049,
+                "eigenvalues": [
+                    2212150.0,
+                    1224631.75,
+                    722812.6875,
+                    365362.53125
+                ]
+            },
+            {
+                "method": "pca_R_nc4",
+                "scenario_key": "standing_center",
+                "scenario_label": "Standing Center",
+                "array_index": 2,
+                "array_name": "espargossouth",
+                "true_aoa_deg": -14.015682010721166,
+                "estimated_aoa_deg": -17.25,
+                "angular_error_deg": 3.2343179892788214,
+                "eigenvalues": [
+                    2419065.0,
+                    1139926.25,
+                    653353.25,
+                    360810.46875
+                ]
+            },
+            {
+                "method": "pca_R_nc4",
+                "scenario_key": "standing_center",
+                "scenario_label": "Standing Center",
+                "array_index": 3,
+                "array_name": "espargoseast",
+                "true_aoa_deg": -4.384058495888273,
+                "estimated_aoa_deg": 38.75,
+                "angular_error_deg": 43.13405849588827,
+                "eigenvalues": [
+                    2330407.25,
+                    1588538.625,
+                    342374.375,
+                    211281.28125
+                ]
+            },
+            {
+                "method": "pca_R_nc4",
+                "scenario_key": "meanders_nw_se",
+                "scenario_label": "Meanders NW-SE",
+                "array_index": 0,
+                "array_name": "espargosnorth",
+                "true_aoa_deg": 3.57341271561328,
+                "estimated_aoa_deg": -2.5,
+                "angular_error_deg": 6.073412715613273,
+                "eigenvalues": [
+                    2037428.5,
+                    1345202.0,
+                    695145.125,
+                    487235.65625
+                ]
+            },
+            {
+                "method": "pca_R_nc4",
+                "scenario_key": "meanders_nw_se",
+                "scenario_label": "Meanders NW-SE",
+                "array_index": 1,
+                "array_name": "espargoswest",
+                "true_aoa_deg": -7.500279702739315,
+                "estimated_aoa_deg": 65.0,
+                "angular_error_deg": 72.5002797027393,
+                "eigenvalues": [
+                    2182902.0,
+                    1243014.375,
+                    743947.75,
+                    351561.5625
+                ]
+            },
+            {
+                "method": "pca_R_nc4",
+                "scenario_key": "meanders_nw_se",
+                "scenario_label": "Meanders NW-SE",
+                "array_index": 2,
+                "array_name": "espargossouth",
+                "true_aoa_deg": -13.308669820454998,
+                "estimated_aoa_deg": -16.75,
+                "angular_error_deg": 3.441330179544991,
+                "eigenvalues": [
+                    2326063.75,
+                    1136925.625,
+                    705197.625,
+                    402266.71875
+                ]
+            },
+            {
+                "method": "pca_R_nc4",
+                "scenario_key": "meanders_nw_se",
+                "scenario_label": "Meanders NW-SE",
+                "array_index": 3,
+                "array_name": "espargoseast",
+                "true_aoa_deg": -1.77058333375126,
+                "estimated_aoa_deg": 38.75,
+                "angular_error_deg": 40.52058333375126,
+                "eigenvalues": [
+                    2285540.5,
+                    1627248.0,
+                    372067.1875,
+                    196610.84375
+                ]
+            },
+            {
+                "method": "pca_R_nc4",
+                "scenario_key": "meanders_sw_ne",
+                "scenario_label": "Meanders SW-NE",
+                "array_index": 0,
+                "array_name": "espargosnorth",
+                "true_aoa_deg": 4.5257916125721,
+                "estimated_aoa_deg": -2.25,
+                "angular_error_deg": 6.775791612572107,
+                "eigenvalues": [
+                    2055184.375,
+                    1342262.875,
+                    662621.5,
+                    503801.03125
+                ]
+            },
+            {
+                "method": "pca_R_nc4",
+                "scenario_key": "meanders_sw_ne",
+                "scenario_label": "Meanders SW-NE",
+                "array_index": 1,
+                "array_name": "espargoswest",
+                "true_aoa_deg": -8.522641147933479,
+                "estimated_aoa_deg": 64.5,
+                "angular_error_deg": 73.02264114793348,
+                "eigenvalues": [
+                    2190413.75,
+                    1232551.5,
+                    742411.4375,
+                    354708.125
+                ]
+            },
+            {
+                "method": "pca_R_nc4",
+                "scenario_key": "meanders_sw_ne",
+                "scenario_label": "Meanders SW-NE",
+                "array_index": 2,
+                "array_name": "espargossouth",
+                "true_aoa_deg": -15.039297626657573,
+                "estimated_aoa_deg": -16.75,
+                "angular_error_deg": 1.7107023733424285,
+                "eigenvalues": [
+                    2298975.0,
+                    1162210.25,
+                    702193.1875,
+                    404155.46875
+                ]
+            },
+            {
+                "method": "pca_R_nc4",
+                "scenario_key": "meanders_sw_ne",
+                "scenario_label": "Meanders SW-NE",
+                "array_index": 3,
+                "array_name": "espargoseast",
+                "true_aoa_deg": -0.9422304594489113,
+                "estimated_aoa_deg": 39.25,
+                "angular_error_deg": 40.19223045944892,
+                "eigenvalues": [
+                    2286952.0,
+                    1614622.125,
+                    388954.1875,
+                    190118.015625
+                ]
+            }
+        ],
+        "summary": {
+            "mean_error_deg": 30.884659303002294,
+            "median_error_deg": 25.25124666981155,
+            "min_error_deg": 1.7107023733424285,
+            "max_error_deg": 73.02264114793348
+        }
+    },
+    "best_kpca": {
+        "stats": {
+            "n_components": 2,
+            "kernel": "rbf",
+            "gamma": 0.001
+        },
+        "results": [
+            {
+                "method": "kpca_R_nc2_g0.001",
+                "scenario_key": "standing_center",
+                "scenario_label": "Standing Center",
+                "array_index": 0,
+                "array_name": "espargosnorth",
+                "true_aoa_deg": 6.560262880174191,
+                "estimated_aoa_deg": -11.0,
+                "angular_error_deg": 17.560262880174207,
+                "eigenvalues": [
+                    1541132.0,
+                    1384451.5,
+                    1002681.25,
+                    605445.25
+                ]
+            },
+            {
+                "method": "kpca_R_nc2_g0.001",
+                "scenario_key": "standing_center",
+                "scenario_label": "Standing Center",
+                "array_index": 1,
+                "array_name": "espargoswest",
+                "true_aoa_deg": -4.7003007457404715,
+                "estimated_aoa_deg": -10.75,
+                "angular_error_deg": 6.0496992542595365,
+                "eigenvalues": [
+                    1532940.75,
+                    1399845.5,
+                    997990.8125,
+                    600551.75
+                ]
+            },
+            {
+                "method": "kpca_R_nc2_g0.001",
+                "scenario_key": "standing_center",
+                "scenario_label": "Standing Center",
+                "array_index": 2,
+                "array_name": "espargossouth",
+                "true_aoa_deg": -14.015682010721166,
+                "estimated_aoa_deg": 55.0,
+                "angular_error_deg": 69.01568201072115,
+                "eigenvalues": [
+                    1681453.5,
+                    1357493.875,
+                    950351.0,
+                    563185.25
+                ]
+            },
+            {
+                "method": "kpca_R_nc2_g0.001",
+                "scenario_key": "standing_center",
+                "scenario_label": "Standing Center",
+                "array_index": 3,
+                "array_name": "espargoseast",
+                "true_aoa_deg": -4.384058495888273,
+                "estimated_aoa_deg": 41.75,
+                "angular_error_deg": 46.13405849588827,
+                "eigenvalues": [
+                    1877526.875,
+                    1356439.375,
+                    876837.0625,
+                    377639.34375
+                ]
+            },
+            {
+                "method": "kpca_R_nc2_g0.001",
+                "scenario_key": "meanders_nw_se",
+                "scenario_label": "Meanders NW-SE",
+                "array_index": 0,
+                "array_name": "espargosnorth",
+                "true_aoa_deg": 3.57341271561328,
+                "estimated_aoa_deg": -10.5,
+                "angular_error_deg": 14.073412715613273,
+                "eigenvalues": [
+                    1579047.375,
+                    1403144.0,
+                    950255.8125,
+                    597319.375
+                ]
+            },
+            {
+                "method": "kpca_R_nc2_g0.001",
+                "scenario_key": "meanders_nw_se",
+                "scenario_label": "Meanders NW-SE",
+                "array_index": 1,
+                "array_name": "espargoswest",
+                "true_aoa_deg": -7.500279702739315,
+                "estimated_aoa_deg": 48.75,
+                "angular_error_deg": 56.250279702739306,
+                "eigenvalues": [
+                    1581583.375,
+                    1365532.5,
+                    989240.5625,
+                    605524.75
+                ]
+            },
+            {
+                "method": "kpca_R_nc2_g0.001",
+                "scenario_key": "meanders_nw_se",
+                "scenario_label": "Meanders NW-SE",
+                "array_index": 2,
+                "array_name": "espargossouth",
+                "true_aoa_deg": -13.308669820454998,
+                "estimated_aoa_deg": -11.25,
+                "angular_error_deg": 2.058669820455009,
+                "eigenvalues": [
+                    1696047.875,
+                    1244026.125,
+                    977403.3125,
+                    629593.1875
+                ]
+            },
+            {
+                "method": "kpca_R_nc2_g0.001",
+                "scenario_key": "meanders_nw_se",
+                "scenario_label": "Meanders NW-SE",
+                "array_index": 3,
+                "array_name": "espargoseast",
+                "true_aoa_deg": -1.77058333375126,
+                "estimated_aoa_deg": -11.0,
+                "angular_error_deg": 9.229416666248738,
+                "eigenvalues": [
+                    1518592.375,
+                    1425341.375,
+                    1005464.8125,
+                    575747.1875
+                ]
+            },
+            {
+                "method": "kpca_R_nc2_g0.001",
+                "scenario_key": "meanders_sw_ne",
+                "scenario_label": "Meanders SW-NE",
+                "array_index": 0,
+                "array_name": "espargosnorth",
+                "true_aoa_deg": 4.5257916125721,
+                "estimated_aoa_deg": -11.25,
+                "angular_error_deg": 15.775791612572107,
+                "eigenvalues": [
+                    1514252.0,
+                    1413731.875,
+                    1006056.6875,
+                    597481.625
+                ]
+            },
+            {
+                "method": "kpca_R_nc2_g0.001",
+                "scenario_key": "meanders_sw_ne",
+                "scenario_label": "Meanders SW-NE",
+                "array_index": 1,
+                "array_name": "espargoswest",
+                "true_aoa_deg": -8.522641147933479,
+                "estimated_aoa_deg": -11.0,
+                "angular_error_deg": 2.4773588520665157,
+                "eigenvalues": [
+                    1502226.5,
+                    1434282.25,
+                    1006676.3125,
+                    584372.25
+                ]
+            },
+            {
+                "method": "kpca_R_nc2_g0.001",
+                "scenario_key": "meanders_sw_ne",
+                "scenario_label": "Meanders SW-NE",
+                "array_index": 2,
+                "array_name": "espargossouth",
+                "true_aoa_deg": -15.039297626657573,
+                "estimated_aoa_deg": -10.75,
+                "angular_error_deg": 4.2892976266575715,
+                "eigenvalues": [
+                    1745273.125,
+                    1230619.125,
+                    937918.625,
+                    633586.4375
+                ]
+            },
+            {
+                "method": "kpca_R_nc2_g0.001",
+                "scenario_key": "meanders_sw_ne",
+                "scenario_label": "Meanders SW-NE",
+                "array_index": 3,
+                "array_name": "espargoseast",
+                "true_aoa_deg": -0.9422304594489113,
+                "estimated_aoa_deg": -11.0,
+                "angular_error_deg": 10.057769540551078,
+                "eigenvalues": [
+                    1633001.5,
+                    1309105.75,
+                    974515.25,
+                    622576.9375
+                ]
+            }
+        ],
+        "summary": {
+            "mean_error_deg": 21.080974931495565,
+            "median_error_deg": 12.065591128082175,
+            "min_error_deg": 2.058669820455009,
+            "max_error_deg": 69.01568201072115
+        }
+    }
+}
