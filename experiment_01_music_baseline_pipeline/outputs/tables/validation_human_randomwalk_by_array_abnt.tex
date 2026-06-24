@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\caption{Resultados de validação por array no cenário \textit{Human Randomwalk}}
+\label{tab:validacao_human_randomwalk_por_array}
+\begin{tabular}{lcccccccc}
+\hline
+\textbf{Método} & \textbf{Energia} & \textbf{Comp.} & \textbf{Comp.} & \textbf{A0} & \textbf{A1} & \textbf{A2} & \textbf{A3} & \textbf{Global} \\
+\hline
+uRoot-MUSIC + CRAP & - & - & 1.00x & 2,67 & 5,47 & 7,03 & 3,54 & 4,68 \\
+PCA complexa + CRAP & 95% & 72 & 23.56x & 2,67 & 5,56 & 7,08 & 3,57 & 4,72 \\
+PCA real/imaginária + CRAP & 95% & 144 & 23.56x & 2,68 & 5,56 & 7,08 & 3,58 & 4,72 \\
+\hline
+\end{tabular}
+
+\vspace{0.2cm}
+\raggedright
+\small Fonte: Elaborado pelo autor (2026).
+
+\small Nota: Os valores correspondem ao erro absoluto médio (MAE), em graus, calculado separadamente para cada array receptor e também de forma global. O conjunto de validação contém 111 clusters.
+\end{table}

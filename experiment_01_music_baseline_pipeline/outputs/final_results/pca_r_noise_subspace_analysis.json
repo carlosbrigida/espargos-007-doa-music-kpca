@@ -1,0 +1,17 @@
+{
+    "experiment": "pca_r_noise_subspace_analysis",
+    "split": "test",
+    "pca_components": 12,
+    "source_count": 1,
+    "max_principal_angle_deg": {
+        "mean": 6.160641313264413,
+        "median": 4.979734420776367,
+        "max": 51.392066955566406
+    },
+    "mean_principal_angle_deg": {
+        "mean": 2.053553204418027,
+        "median": 1.6599162817001343,
+        "max": 17.130693435668945
+    },
+    "elapsed_seconds": 1.9840700999993715
+}

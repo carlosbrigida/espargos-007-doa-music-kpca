@@ -1,0 +1,16 @@
+grupo,metodo,energia,componentes,mae_a0,mae_a1,mae_a2,mae_a3,mae_global,observacao
+Luiz / Baseline oficial,uRoot-MUSIC + CRAP,-,-,3.15,4.67,6.48,4.33,4.66,Resultado reproduzido exatamente da tabela do Luiz
+Nosso experimento sem CRAP,uRoot-MUSIC,-,-,20.57,55.07,33.2,42.64,37.87,Baseline sem remoção de clutter
+Nosso experimento sem CRAP,PCA complexa,90%,4,20.16,55.08,33.09,42.69,37.75,PCA usando representação complexa
+Nosso experimento sem CRAP,PCA complexa,95%,4,20.16,55.08,33.09,42.69,37.75,PCA usando representação complexa
+Nosso experimento sem CRAP,PCA complexa,99%,25,20.63,55.08,33.21,42.64,37.89,PCA usando representação complexa
+Nosso experimento sem CRAP,PCA real/imag,90%,7,20.17,54.05,32.98,42.32,37.38,Menor MAE sem CRAP
+Nosso experimento sem CRAP,PCA real/imag,95%,8,20.16,55.08,33.09,42.69,37.75,PCA separando real e imaginário
+Nosso experimento sem CRAP,PCA real/imag,99%,50,20.63,55.08,33.21,42.64,37.89,PCA separando real e imaginário
+Nosso experimento com CRAP,uRoot-MUSIC,-,-,3.15,4.67,6.48,4.33,4.66,Baseline com CRAP reproduzido
+Nosso experimento com CRAP,PCA complexa,90%,52,3.24,4.9,7.12,4.41,4.92,Piorou em relação ao baseline com CRAP
+Nosso experimento com CRAP,PCA complexa,95%,72,3.2,4.73,6.63,4.32,4.72,Muito próximo ao baseline com CRAP
+Nosso experimento com CRAP,PCA complexa,99%,175,3.15,4.67,6.49,4.33,4.66,Empata com o baseline
+Nosso experimento com CRAP,PCA real/imag,90%,103,3.24,4.89,7.11,4.38,4.91,Piorou em relação ao baseline com CRAP
+Nosso experimento com CRAP,PCA real/imag,95%,144,3.2,4.73,6.63,4.32,4.72,Muito próximo ao baseline com CRAP
+Nosso experimento com CRAP,PCA real/imag,99%,340,3.15,4.67,6.49,4.33,4.66,"Empata com o baseline, mas usa mais componentes"

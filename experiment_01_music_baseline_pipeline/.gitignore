@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# Dataset/cache local
+data/cache/
+data/cache_luis/
+
+# Resultados intermediários
+outputs/metrics/
+outputs/figures/
+
+# LaTeX auxiliares
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.toc
+*.synctex.gz

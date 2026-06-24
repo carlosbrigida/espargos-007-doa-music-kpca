@@ -1,0 +1,26 @@
+{
+    "experiment": "pca_r_physics_analysis",
+    "split": "test",
+    "pca_components": 12,
+    "frobenius_relative_error": {
+        "mean": 0.0877890394892477,
+        "median": 0.08360640332102776,
+        "max": 0.22295893728733063
+    },
+    "eigenvalue_relative_error": {
+        "mean": 0.030395251677223963,
+        "median": 0.027324602007865906,
+        "max": 0.13615192472934723
+    },
+    "hermitian_relative_error": {
+        "mean": 0.0,
+        "median": 0.0,
+        "max": 0.0
+    },
+    "minimum_eigenvalue_reconstructed": {
+        "mean": 2.090282803401351,
+        "min": 0.8596227169036865,
+        "negative_count": 0
+    },
+    "elapsed_seconds": 1.90269470000203
+}
